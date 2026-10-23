@@ -1,0 +1,32 @@
+{
+  "update": 32,
+  "interactions": 128,
+  "physical": {
+    "cells": {
+      "new_dynamics": {
+        "reach": {
+          "success_rate": 1.0,
+          "n": 6,
+          "mean_final_distance_m": 0.040049104055491815
+        },
+        "touch": {
+          "success_rate": 0.8333333333333334,
+          "n": 6,
+          "mean_final_distance_m": 0.04584720059005379
+        },
+        "grasp_lift": {
+          "success_rate": 0.5,
+          "n": 6,
+          "mean_final_distance_m": 0.09020398702210129
+        }
+      }
+    },
+    "ood_macro_success": 0.7777777777777778,
+    "n_trials": 18,
+    "goal_interface": "explicit spatial/contact goals, not language instructions"
+  },
+  "namespace": "physical-adaptation-test-v1",
+  "evaluation_mode": "physics",
+  "weights_frozen": true,
+  "policy": "learned"
+}

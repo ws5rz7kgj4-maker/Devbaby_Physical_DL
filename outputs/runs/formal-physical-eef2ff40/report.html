@@ -1,0 +1,278 @@
+<!doctype html><meta charset="utf-8"><title>DevBaby physical experiments</title>
+<style>body{font:16px system-ui;max-width:1100px;margin:36px auto;padding:20px;background:#f7f9fc;color:#172738}img{max-width:100%}pre{white-space:pre-wrap;background:white;padding:18px}a{color:#1b617d}</style>
+<h1>Physical interaction generalization and learning progress</h1>
+<p>Completed fixed-budget experiment · 8 training seeds · tasks: reach, touch, grasp-lift.</p>
+<p>These are measured results; a flat or falling curve is a valid negative finding.</p>
+<img src="physical_learning.png"><p><a href="success_curves.csv">Success by task/domain</a> · <a href="growth_rates.csv">Growth rates</a> · <a href="adaptation_curves.csv">Adaptation</a> · <a href="final_success.csv">Sealed final test</a></p>
+<h2>Predeclared paired comparisons</h2><pre>{
+  &quot;protocol_sha256&quot;: &quot;6d7277597bf82f318cb8db9b111cdc2c5af3962135f3ea7c940dbbfdc66b5976&quot;,
+  &quot;development_only&quot;: false,
+  &quot;primary_tests&quot;: [
+    {
+      &quot;contrast&quot;: &quot;final_full_minus_initial_ood_success&quot;,
+      &quot;n_seeds&quot;: 8,
+      &quot;mean_difference&quot;: 0.7217881944444444,
+      &quot;paired_seed_ci95&quot;: [
+        0.7087673611111112,
+        0.7361111111111112
+      ],
+      &quot;exact_sign_flip_p&quot;: 0.0078125,
+      &quot;holm_p&quot;: 0.0234375,
+      &quot;positive_evidence&quot;: true,
+      &quot;per_seed_differences&quot;: [
+        0.7222222222222223,
+        0.7256944444444443,
+        0.6979166666666667,
+        0.7256944444444445,
+        0.7638888888888888,
+        0.7326388888888888,
+        0.7083333333333334,
+        0.6979166666666667
+      ]
+    },
+    {
+      &quot;contrast&quot;: &quot;final_full_minus_no_action_ood_success&quot;,
+      &quot;n_seeds&quot;: 8,
+      &quot;mean_difference&quot;: 0.7256944444444444,
+      &quot;paired_seed_ci95&quot;: [
+        0.7100694444444444,
+        0.7434895833333333
+      ],
+      &quot;exact_sign_flip_p&quot;: 0.0078125,
+      &quot;holm_p&quot;: 0.0234375,
+      &quot;positive_evidence&quot;: true,
+      &quot;per_seed_differences&quot;: [
+        0.7187500000000001,
+        0.7222222222222221,
+        0.701388888888889,
+        0.7222222222222223,
+        0.7708333333333333,
+        0.7604166666666666,
+        0.7048611111111112,
+        0.7048611111111112
+      ]
+    },
+    {
+      &quot;contrast&quot;: &quot;adaptation_final_minus_initial_gain_auc&quot;,
+      &quot;n_seeds&quot;: 8,
+      &quot;mean_difference&quot;: -0.4177517361111111,
+      &quot;paired_seed_ci95&quot;: [
+        -0.5107449001736111,
+        -0.32421875
+      ],
+      &quot;exact_sign_flip_p&quot;: 0.0078125,
+      &quot;holm_p&quot;: 0.0234375,
+      &quot;positive_evidence&quot;: false,
+      &quot;per_seed_differences&quot;: [
+        -0.37673611111111116,
+        -0.4704861111111111,
+        -0.298611111111111,
+        -0.46961805555555547,
+        -0.1901041666666667,
+        -0.37847222222222215,
+        -0.6701388888888888,
+        -0.4878472222222222
+      ]
+    }
+  ],
+  &quot;final_full_mean&quot;: 0.7291666666666666,
+  &quot;final_full_seed_ci95&quot;: [
+    0.7135416666666667,
+    0.7469618055555556
+  ],
+  &quot;final_initial_mean&quot;: 0.007378472222222222,
+  &quot;final_no_action_mean&quot;: 0.003472222222222222,
+  &quot;inference_unit&quot;: &quot;independent training seeds; paired CI and tests conditional on sampled test panel&quot;,
+  &quot;testing_assumption&quot;: &quot;Paired sign-flip tests assume exchangeability/symmetry of seed-level differences under the null.&quot;,
+  &quot;growth_note&quot;: &quot;Finite differences of fixed development checkpoints, in percentage points per 1,000 environment interactions. Negative growth is retained. Threshold non-attainment remains null/censored.&quot;,
+  &quot;adaptation_note&quot;: &quot;The third primary contrast uses baseline-subtracted adaptation AUC, separating additional learning gains from higher zero-shot starting success. Ceiling effects still limit cross-age interpretation; raw curves, slopes and starting levels are also reported.&quot;,
+  &quot;limitation&quot;: &quot;No power guarantee; spatial/contact goals and a task cost are supplied; task-wise failures and privileged-reference failures are reported.&quot;
+}</pre>
+<h2>Physical feasibility and random-control references</h2><pre>{
+  &quot;random&quot;: {
+    &quot;cells&quot;: {
+      &quot;iid&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.3957970040084149
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 0.041666666666666664,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.4114764517353504
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.3976118781062936
+        }
+      },
+      &quot;joint_physics&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.3915189012287094
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 0.041666666666666664,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.442592103803368
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.4414209798288799
+        }
+      },
+      &quot;new_delay&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.3953211851496869
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 0.041666666666666664,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.46057109848052313
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.4053382272470616
+        }
+      },
+      &quot;new_dynamics&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.4046511681256428
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 0.08333333333333333,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.3953778674179686
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.3680755239353511
+        }
+      },
+      &quot;new_layout&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.3689971076998578
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.40259165457854684
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 0.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.4525198137646318
+        }
+      }
+    },
+    &quot;ood_macro_success&quot;: 0.013888888888888888,
+    &quot;n_trials&quot;: 360,
+    &quot;goal_interface&quot;: &quot;explicit spatial/contact goals, not language instructions&quot;
+  },
+  &quot;oracle_reference&quot;: {
+    &quot;cells&quot;: {
+      &quot;iid&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 1.6586296413297592e-08
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 0.7916666666666666,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.38565351459831154
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.0014613290611240326
+        }
+      },
+      &quot;joint_physics&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 1.4714656228931556e-06
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.10565683067290672
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 0.5833333333333334,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.049597096108267534
+        }
+      },
+      &quot;new_delay&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.0004421821694269188
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 0.875,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.3622774292158808
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.001815448936749556
+        }
+      },
+      &quot;new_dynamics&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 1.2845778998339472e-08
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 0.9583333333333334,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.38338211245157816
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.001157854480016286
+        }
+      },
+      &quot;new_layout&quot;: {
+        &quot;reach&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 1.5626693502140368e-08
+        },
+        &quot;touch&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.1117407545138391
+        },
+        &quot;grasp_lift&quot;: {
+          &quot;success_rate&quot;: 1.0,
+          &quot;n&quot;: 24,
+          &quot;mean_final_distance_m&quot;: 0.0008193003231668329
+        }
+      }
+    },
+    &quot;ood_macro_success&quot;: 0.951388888888889,
+    &quot;n_trials&quot;: 360,
+    &quot;goal_interface&quot;: &quot;explicit spatial/contact goals, not language instructions&quot;
+  }
+}</pre>
+<p>Goal coordinates/contact requirements and a CEM objective are supplied. The movement predictor is learned from raw sensory experience. The oracle reference uses simulator state solely to check task feasibility; its performance is not learned-agent performance.</p>
+<p>All random training experiences, audible waveforms, annotations, checkpoints and adaptation experiences are retained in the result repository. No inference about consciousness or human developmental age is made.</p>

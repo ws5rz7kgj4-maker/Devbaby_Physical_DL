@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "budget": 2048,
+  "updates": 512,
+  "source_checkpoint_update": 0,
+  "seed": 7,
+  "domain": "new_dynamics"
+}

@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "budget": 2048,
+  "updates": 512,
+  "source_checkpoint_update": 4096,
+  "seed": 3,
+  "domain": "new_delay"
+}

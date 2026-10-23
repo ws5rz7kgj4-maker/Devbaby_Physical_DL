@@ -1,0 +1,22 @@
+<!doctype html><meta charset="utf-8"><title>Physical learning curves</title>
+<style>body{font:16px system-ui;max-width:1050px;margin:40px auto;padding:20px}img{max-width:100%}pre{white-space:pre-wrap}</style>
+<h1>Physical interaction success and growth</h1><p>These are executed simulator tasks, not speech-recognition scores.</p>
+<img src="learning_curves.png"><p><a href="learning_curves.csv">Per-task CSV</a></p>
+<p>Goals are explicit spatial/contact specifications. The body has a proximity-grasp primitive.
+The movement predictor is learned from random experience; the task cost and CEM planner are supplied.</p>
+<p>Development curves are descriptive; the separate final test uses fresh scene seeds and fixed training endpoints.</p>
+<pre>{
+  &quot;normalized_auc&quot;: 0.013888888888888888,
+  &quot;growth_pp_per_1000_interactions&quot;: [
+    null,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  &quot;sustained_threshold_interactions&quot;: {
+    &quot;0.5&quot;: null,
+    &quot;0.8&quot;: null
+  },
+  &quot;threshold_note&quot;: &quot;null means threshold was not observed at two consecutive scheduled evaluations&quot;
+}</pre><video controls width="512" src="preview.mp4"></video>
