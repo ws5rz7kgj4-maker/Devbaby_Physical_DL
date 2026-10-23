@@ -1,0 +1,1 @@
+{"seed":0,"blocks":32,"episodes_per_block":32,"updates_per_block":500,"eval_per_condition":240,"eval_dynamics_episodes":12,"motor_trials":32,"probe_examples":600,"max_seconds":21600}

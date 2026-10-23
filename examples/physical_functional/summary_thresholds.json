@@ -1,0 +1,168 @@
+{
+  "training": [
+    {
+      "variant": "full",
+      "seed": 0,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "full",
+      "seed": 1,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 0,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 1,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    }
+  ],
+  "adaptation": [
+    {
+      "seed": 0,
+      "age_block": 0,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.0,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 1,
+      "age_block": 0,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.0,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 0,
+      "age_block": 1,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.0,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 1,
+      "age_block": 1,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.0,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 0,
+      "age_block": 2,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.0,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 1,
+      "age_block": 2,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.0,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.0,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    }
+  ]
+}

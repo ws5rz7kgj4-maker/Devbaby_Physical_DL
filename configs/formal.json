@@ -1,0 +1,19 @@
+{
+  "seed": 0,
+  "blocks": 16,
+  "episodes_per_block": 32,
+  "episode_steps": 64,
+  "updates_per_block": 512,
+  "batch_size": 16,
+  "clip_steps": 16,
+  "eval_interval_blocks": 4,
+  "evaluation_mode": "physics",
+  "eval_namespace": "physical-development-v1",
+  "motor_domain_randomization": true,
+  "physics_trials": 6,
+  "physics_steps": 40,
+  "planner_horizon": 8,
+  "planner_candidates": 48,
+  "planner_iterations": 2,
+  "max_seconds": 82800
+}

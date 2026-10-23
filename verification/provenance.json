@@ -1,0 +1,10 @@
+{
+  "source_sha256": "eef2ff40383ff64a46d1a0bc186a3829fc6502ce09700d5e7120e53ae65d8840",
+  "tests_passed": 28,
+  "cpu": "Python 3.11.17, PyTorch 2.6.0+cpu",
+  "cuda_tested": false,
+  "hf_jobs_submitted": 0,
+  "formal_research_matrix_completed": false,
+  "example_only_functional": true,
+  "reference_feasibility_is_not_learned_agent_performance": true
+}

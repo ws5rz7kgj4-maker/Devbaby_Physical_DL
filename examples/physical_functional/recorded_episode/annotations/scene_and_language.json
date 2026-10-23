@@ -1,0 +1,211 @@
+{
+  "seed": 2273245784,
+  "condition": "train",
+  "theme": 0,
+  "gravity": -9.81,
+  "objects": [
+    {
+      "id": 4,
+      "color": "blue",
+      "shape": "ball",
+      "size": 0.05143949691784922,
+      "material": "rubber",
+      "mass": 0.184600916501307,
+      "friction": 0.5513785812179004,
+      "restitution": 0.3,
+      "rolling_friction": 0.008,
+      "linear_damping": 0.05,
+      "angular_damping": 0.08,
+      "rgba": [
+        0.06,
+        0.2,
+        0.85,
+        1
+      ],
+      "initial_position": [
+        0.15249089028563087,
+        -0.14879315655479913,
+        0.13
+      ]
+    },
+    {
+      "id": 5,
+      "color": "blue",
+      "shape": "ball",
+      "size": 0.05878921501452657,
+      "material": "metal",
+      "mass": 0.12639883040026428,
+      "friction": 0.7815898954165812,
+      "restitution": 0.3,
+      "rolling_friction": 0.008,
+      "linear_damping": 0.05,
+      "angular_damping": 0.08,
+      "rgba": [
+        0.06,
+        0.2,
+        0.85,
+        1
+      ],
+      "initial_position": [
+        0.23621925811370795,
+        0.037556763103652024,
+        0.13
+      ]
+    },
+    {
+      "id": 6,
+      "color": "red",
+      "shape": "cylinder",
+      "size": 0.052481419312031645,
+      "material": "wood",
+      "mass": 0.10458674197858293,
+      "friction": 0.37905359507441005,
+      "restitution": 0.3,
+      "rolling_friction": 0.008,
+      "linear_damping": 0.05,
+      "angular_damping": 0.08,
+      "rgba": [
+        0.85,
+        0.08,
+        0.06,
+        1
+      ],
+      "initial_position": [
+        0.4933009533072076,
+        -0.22802574890705982,
+        0.13
+      ]
+    }
+  ],
+  "static_geometry": [
+    {
+      "id": 0,
+      "shape": "box",
+      "half_extents": [
+        1.0,
+        0.8,
+        0.035
+      ],
+      "position": [
+        0.35,
+        0,
+        -0.035
+      ],
+      "rgba": [
+        0.62,
+        0.49,
+        0.35,
+        1
+      ],
+      "mass": 0
+    },
+    {
+      "id": 1,
+      "shape": "box",
+      "half_extents": [
+        0.035,
+        0.8,
+        0.45
+      ],
+      "position": [
+        1.35,
+        0,
+        0.4
+      ],
+      "rgba": [
+        0.7,
+        0.72,
+        0.75,
+        1
+      ],
+      "mass": 0
+    },
+    {
+      "id": 2,
+      "shape": "box",
+      "half_extents": [
+        1,
+        0.025,
+        0.25
+      ],
+      "position": [
+        0.35,
+        -0.8,
+        0.22
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "mass": 0
+    },
+    {
+      "id": 3,
+      "shape": "box",
+      "half_extents": [
+        1,
+        0.025,
+        0.25
+      ],
+      "position": [
+        0.35,
+        0.8,
+        0.22
+      ],
+      "rgba": [
+        0.7,
+        0.7,
+        0.7,
+        1
+      ],
+      "mass": 0
+    }
+  ],
+  "effector": {
+    "id": 7,
+    "radius": 0.038,
+    "mass": 0.10608551822971014,
+    "linear_damping": 0.9,
+    "angular_damping": 0.99,
+    "servo_gain": 35.848005319948676,
+    "servo_damping": 2.7135918332684295,
+    "command_step_m": 0.05085207224576778,
+    "command_delay_steps": 0
+  },
+  "caregiver_avatar": {
+    "head_id": 8,
+    "head_radius": 0.095,
+    "head_position": [
+      1.05,
+      0.5,
+      0.6
+    ],
+    "pointer_id": 9,
+    "pointer_radius": 0.018
+  },
+  "control_hz": 8,
+  "physics_hz": 120,
+  "sample_rate": 16000,
+  "coordinates": "world x/y horizontal, z up; metres, seconds, kg",
+  "embodiment": "3D point effector with proximity grasp reflex; no anatomical infant simulation",
+  "utterances": [
+    {
+      "type": "utterance",
+      "start_s": 0.125,
+      "end_s": 1.1096249999999999,
+      "text": "look at the blue ball",
+      "voice": "en-us",
+      "speed": 195,
+      "pitch": 50,
+      "related": true,
+      "intended_referent": 5,
+      "spoken_color": "blue",
+      "spoken_shape": "ball",
+      "pointed_object": 5,
+      "spoken_event": null,
+      "pairing_available_to_learner": false
+    }
+  ]
+}

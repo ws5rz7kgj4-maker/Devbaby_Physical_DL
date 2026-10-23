@@ -1,0 +1,1 @@
+FUNCTIONAL TEST ONLY. These are measured tiny-budget software checks, not final research performance. Recorded episode and video use fully simulated RGB, actions, formant speech and collision audio. The learner snapshots are not included; every submitted model starts from random initialization.

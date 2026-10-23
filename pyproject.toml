@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "devbaby-sim"
+version = "0.2.0"
+description = "Fully synthetic physical generalization and learning-progress experiment"
+requires-python = ">=3.10,<3.12"
+dependencies = ["torch>=2.6,<3", "numpy==1.26.4", "scipy==1.13.1", "Pillow==10.4.0", "pybullet==3.2.7", "espeakng-loader==0.2.4", "huggingface_hub==0.36.0", "matplotlib==3.9.2", "imageio==2.37.0", "imageio-ffmpeg==0.6.0"]
+
+[tool.setuptools.packages.find]
+include = ["devbaby*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]

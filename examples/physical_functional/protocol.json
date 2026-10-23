@@ -1,0 +1,81 @@
+{
+  "protocol": {
+    "version": "functional-test",
+    "development_only": true,
+    "training_config": "config.json",
+    "seeds": [
+      0,
+      1
+    ],
+    "variants": {
+      "full": {},
+      "no_action": {
+        "ablation": "no_action"
+      }
+    },
+    "final_namespace": "unit-final",
+    "final_trials_per_task_domain": 1,
+    "adaptation_domains": [
+      "new_delay"
+    ],
+    "adaptation_budgets": [
+      0,
+      12
+    ],
+    "adaptation_checkpoint_blocks": [
+      0,
+      1,
+      2
+    ],
+    "adaptation_updates_per_episode": 1,
+    "adaptation_trials_per_task_domain": 1,
+    "adaptation_namespace": "unit-adapt",
+    "job_seconds": 300,
+    "primary_family": [
+      "final_minus_initial",
+      "final_minus_no_action",
+      "adaptation_auc_gain"
+    ]
+  },
+  "training_config": {
+    "seed": 0,
+    "image_size": 64,
+    "control_hz": 8,
+    "physics_hz": 120,
+    "sample_rate": 16000,
+    "episode_steps": 12,
+    "objects_min": 1,
+    "objects_max": 3,
+    "correspondence": 1.0,
+    "caregiver_delay_steps": 0,
+    "exploration": "random",
+    "ablation": "none",
+    "hidden": 128,
+    "batch_size": 4,
+    "clip_steps": 8,
+    "learning_rate": 0.0003,
+    "blocks": 2,
+    "episodes_per_block": 2,
+    "updates_per_block": 2,
+    "eval_per_condition": 48,
+    "eval_namespace": "development-v1",
+    "eval_interval_blocks": 1,
+    "evaluation_mode": "physics",
+    "motor_domain_randomization": true,
+    "physics_trials": 1,
+    "physics_steps": 4,
+    "planner_horizon": 2,
+    "planner_candidates": 8,
+    "planner_iterations": 1,
+    "eval_dynamics_episodes": 4,
+    "motor_trials": 8,
+    "motor_steps": 24,
+    "replay_episodes": 512,
+    "probe_examples": 160,
+    "threads": 2,
+    "max_seconds": 300,
+    "save_video": false
+  },
+  "source_archive": "local",
+  "sha256": "1d80456811b1d168deda9bc0303f4769eed9aa3b4ac164d904019cb8b2811477"
+}

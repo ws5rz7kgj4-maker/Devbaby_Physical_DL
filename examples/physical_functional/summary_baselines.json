@@ -1,0 +1,186 @@
+{
+  "random": {
+    "cells": {
+      "iid": {
+        "reach": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.35733569953265926
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.40584001165610134
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.5923856744626206
+        }
+      },
+      "joint_physics": {
+        "reach": {
+          "success_rate": 1.0,
+          "n": 1,
+          "mean_final_distance_m": 0.07361793394352034
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.39378301095961027
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.2936785794510437
+        }
+      },
+      "new_delay": {
+        "reach": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.16119815578685615
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.30682516637287444
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.39165186777576777
+        }
+      },
+      "new_dynamics": {
+        "reach": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.26549996826355865
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.5258249424303577
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.09646866226094744
+        }
+      },
+      "new_layout": {
+        "reach": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.4832347007287016
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.41046810403878836
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.6481985247648622
+        }
+      }
+    },
+    "ood_macro_success": 0.08333333333333333,
+    "n_trials": 15,
+    "goal_interface": "explicit spatial/contact goals, not language instructions"
+  },
+  "oracle_reference": {
+    "cells": {
+      "iid": {
+        "reach": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.16887877285137504
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.016367712752207636
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.44584318944756907
+        }
+      },
+      "joint_physics": {
+        "reach": {
+          "success_rate": 1.0,
+          "n": 1,
+          "mean_final_distance_m": 0.02780422052035225
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.41276949441808625
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.3330832505787797
+        }
+      },
+      "new_delay": {
+        "reach": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.015261045853238089
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.30682516637287444
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.29631865359339826
+        }
+      },
+      "new_dynamics": {
+        "reach": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.19710443275818076
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.3991400615978837
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.222280783993511
+        }
+      },
+      "new_layout": {
+        "reach": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.45230007451479065
+        },
+        "touch": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.3788630314701434
+        },
+        "grasp_lift": {
+          "success_rate": 0.0,
+          "n": 1,
+          "mean_final_distance_m": 0.40895228665902056
+        }
+      }
+    },
+    "ood_macro_success": 0.08333333333333333,
+    "n_trials": 15,
+    "goal_interface": "explicit spatial/contact goals, not language instructions"
+  }
+}

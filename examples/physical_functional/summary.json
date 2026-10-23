@@ -1,0 +1,66 @@
+{
+  "protocol_sha256": "1d80456811b1d168deda9bc0303f4769eed9aa3b4ac164d904019cb8b2811477",
+  "development_only": true,
+  "primary_tests": [
+    {
+      "contrast": "final_minus_initial",
+      "n_seeds": 2,
+      "mean_difference": 0.0,
+      "paired_seed_ci95": [
+        0.0,
+        0.0
+      ],
+      "exact_sign_flip_p": 1.0,
+      "holm_p": 1.0,
+      "positive_evidence": false,
+      "per_seed_differences": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "contrast": "final_minus_no_action",
+      "n_seeds": 2,
+      "mean_difference": 0.0,
+      "paired_seed_ci95": [
+        0.0,
+        0.0
+      ],
+      "exact_sign_flip_p": 1.0,
+      "holm_p": 1.0,
+      "positive_evidence": false,
+      "per_seed_differences": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "contrast": "adaptation_auc_gain",
+      "n_seeds": 2,
+      "mean_difference": 0.0,
+      "paired_seed_ci95": [
+        0.0,
+        0.0
+      ],
+      "exact_sign_flip_p": 1.0,
+      "holm_p": 1.0,
+      "positive_evidence": false,
+      "per_seed_differences": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "final_full_mean": 0.08333333333333333,
+  "final_full_seed_ci95": [
+    0.08333333333333333,
+    0.08333333333333333
+  ],
+  "final_initial_mean": 0.08333333333333333,
+  "final_no_action_mean": 0.08333333333333333,
+  "inference_unit": "independent training seeds; paired CI and tests conditional on sampled test panel",
+  "testing_assumption": "Paired sign-flip tests assume exchangeability/symmetry of seed-level differences under the null.",
+  "growth_note": "Finite differences of fixed development checkpoints, in percentage points per 1,000 environment interactions. Negative growth is retained. Threshold non-attainment remains null/censored.",
+  "adaptation_note": "The third primary contrast uses baseline-subtracted adaptation AUC, separating additional learning gains from higher zero-shot starting success. Ceiling effects still limit cross-age interpretation; raw curves, slopes and starting levels are also reported.",
+  "limitation": "No power guarantee; spatial/contact goals and a task cost are supplied; task-wise failures and privileged-reference failures are reported."
+}

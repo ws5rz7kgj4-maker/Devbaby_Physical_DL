@@ -1,0 +1,9 @@
+variant,seed,interval_start,interval_end,pp_per_1000_interactions
+full,0,0,24,0.0
+full,0,24,48,0.0
+full,1,0,24,0.0
+full,1,24,48,0.0
+no_action,0,0,24,0.0
+no_action,0,24,48,0.0
+no_action,1,0,24,0.0
+no_action,1,24,48,0.0

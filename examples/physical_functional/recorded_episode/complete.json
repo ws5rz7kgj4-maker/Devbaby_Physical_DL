@@ -1,0 +1,15 @@
+{
+  "seed": 2273245784,
+  "condition": "train",
+  "steps": 12,
+  "utterances": 1,
+  "impacts": 6,
+  "grasps": 0,
+  "visible_object_frames": 39,
+  "spoken_concepts": [
+    [
+      "blue",
+      "ball"
+    ]
+  ]
+}

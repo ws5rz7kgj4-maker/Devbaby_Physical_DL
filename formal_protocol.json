@@ -1,0 +1,21 @@
+{
+  "version": "DevBaby-physical-v1",
+  "development_only": false,
+  "training_config": "configs/formal.json",
+  "seeds": [0, 1, 2, 3, 4, 5, 6, 7],
+  "variants": {"full": {}, "no_action": {"ablation": "no_action"}},
+  "final_namespace": "physical-sealed-final-v1",
+  "final_trials_per_task_domain": 24,
+  "adaptation_domains": ["new_dynamics", "new_delay"],
+  "adaptation_budgets": [0, 128, 512, 2048],
+  "adaptation_checkpoint_blocks": [0, 8, 16],
+  "adaptation_updates_per_episode": 16,
+  "adaptation_trials_per_task_domain": 6,
+  "adaptation_namespace": "physical-adaptation-test-v1",
+  "job_seconds": 82800,
+  "primary_family": ["final_full_minus_initial_ood_success", "final_full_minus_no_action_ood_success", "adaptation_final_minus_initial_gain_auc"],
+  "statistics": "Paired training-seed differences; two-sided exact sign-flip tests, Holm correction across the three primary contrasts; bootstrap paired-seed CIs. Scene sampling uncertainty is not included in seed-only intervals.",
+  "stopping": "Fixed interaction/update budgets. Only infrastructure/time limits may interrupt; no performance-based stopping or checkpoint selection.",
+  "success": "Reach within 8 cm for final three steps; touch physical contact for any three consecutive steps; grasp-lift held target at least 14 cm above initial center and hand within 13 cm of lift goal for final three steps.",
+  "interpretation": "Spatial/contact goals and a CEM task cost are supplied. Language is part of experience, not the primary score. No general intelligence, language instruction-following or consciousness claim. Eight seeds do not constitute a prospective power analysis."
+}

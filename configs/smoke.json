@@ -1,0 +1,1 @@
+{"seed":0,"episode_steps":24,"clip_steps":8,"batch_size":4,"blocks":2,"episodes_per_block":2,"updates_per_block":4,"eval_per_condition":4,"eval_dynamics_episodes":1,"motor_trials":2,"motor_steps":8,"probe_examples":24,"threads":2,"max_seconds":1200}
