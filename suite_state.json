@@ -1,0 +1,24 @@
+{
+  "status": "completed",
+  "phase": "completed",
+  "protocol_sha256": "6d7277597bf82f318cb8db9b111cdc2c5af3962135f3ea7c940dbbfdc66b5976",
+  "completed_members": [
+    "full-s0",
+    "no_action-s0",
+    "no_action-s1",
+    "full-s1",
+    "full-s2",
+    "no_action-s2",
+    "no_action-s3",
+    "full-s3",
+    "full-s4",
+    "no_action-s4",
+    "no_action-s5",
+    "full-s5",
+    "full-s6",
+    "no_action-s6",
+    "no_action-s7",
+    "full-s7"
+  ],
+  "elapsed_this_job_seconds": 19817.642809063
+}
