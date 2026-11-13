@@ -1,0 +1,95 @@
+{
+  "snapshot_date": "2026-11-11",
+  "note": "Recorded run history, not a fresh platform live-job listing. No jobs launched for this documentation.",
+  "jobs": [
+    {
+      "study": "early_formal",
+      "run_id": "formal-physical-eef2ff40",
+      "repo": "swenlio/devbaby-results",
+      "state": "completed",
+      "state_basis": "saved suite_state, 16 members; read during documentation audit",
+      "included_evidence": "results/raw/early/formal_suite_state.json"
+    },
+    {
+      "study": "early_supplement",
+      "job_id": "6adb5d9b1e112550ce7d50c4",
+      "run_id": "supplement-c2b8f789d4b0",
+      "repo": "swenlio/devbaby-supplement-results",
+      "state": "completed",
+      "state_basis": "saved supplement state; historical platform record",
+      "included_evidence": "results/raw/early/supplement_supplement_state.json"
+    },
+    {
+      "study": "worldmodel_initial",
+      "job_id": "6adc0292046eb82b1ecd8fed",
+      "run_id": "worldmodel-fd0f484f6879",
+      "repo": "swenlio/devbaby-worldmodel-results",
+      "state": "error",
+      "state_basis": "historical nonfinite-gradient failure record; source import provenance"
+    },
+    {
+      "study": "worldmodel_recovery",
+      "job_id": "6adcc5ec1e112550ce7e0b1f",
+      "run_id": "worldmodel-dacc6ff327cf",
+      "repo": "swenlio/devbaby-worldmodel-results",
+      "state": "canceled",
+      "state_basis": "previously confirmed user-requested platform cancellation; fit seal is not evaluation completion",
+      "included_evidence": "results/raw/formal_fit_seal.json"
+    },
+    {
+      "study": "frozen_audit_failed_publish",
+      "job_id": "6addc882046eb82b1ece41da",
+      "repo": "swenlio/devbaby-worldmodel-results",
+      "state": "error",
+      "state_basis": "historical 403 at initial publication before evaluation",
+      "valid_results": false
+    },
+    {
+      "study": "output_write_preflight",
+      "job_id": "6ade1023046eb82b1ece58ec",
+      "repo": "swenlio/devbaby-control-audit-results",
+      "state": "completed",
+      "state_basis": "historical upload/download preflight record"
+    },
+    {
+      "study": "frozen_control_audit",
+      "job_id": "6ade105e046eb82b1ece5906",
+      "prefix": "audits/frozen-control-v1-ba8f8d332928",
+      "repo": "swenlio/devbaby-control-audit-results",
+      "state": "completed",
+      "state_basis": "saved status read during documentation audit",
+      "included_evidence": "results/raw/frozen_control_status.json",
+      "training_performed": false
+    },
+    {
+      "study": "fp32_loss_comparison",
+      "job_id": "6ade12e9046eb82b1ece59f3",
+      "prefix": "baseline-checks/4fc555c1bed2",
+      "repo": "swenlio/devbaby-control-audit-results",
+      "state": "completed",
+      "state_basis": "saved status read during documentation audit",
+      "included_evidence": "results/raw/baseline_status.json",
+      "training_performed": true,
+      "development_only": true
+    },
+    {
+      "study": "cpu_parameter_audit",
+      "job_id": "6ade7b0c1e112550ce7ef0fa",
+      "prefix": "parameter-audits/b5a388062712",
+      "repo": "swenlio/devbaby-control-audit-results",
+      "state": "completed",
+      "state_basis": "archived completed result and job metadata",
+      "included_evidence": "results/raw/parameter_cpu_result.json"
+    },
+    {
+      "study": "gpu_cache_reproduction",
+      "job_id": "6ade7b44046eb82b1ece8408",
+      "prefix": "parameter-audits/gpu-d9b63f7d5fd4",
+      "repo": "swenlio/devbaby-control-audit-results",
+      "state": "completed",
+      "state_basis": "archived completed result and job metadata",
+      "included_evidence": "results/raw/parameter_gpu_result.json",
+      "gradscaler_used": false
+    }
+  ]
+}

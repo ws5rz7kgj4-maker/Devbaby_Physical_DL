@@ -1,0 +1,31 @@
+{
+  "version": "baseline-check-v1",
+  "source_revision": "e0732eba95ebd3b99996b1b8d67931ec25fe1411",
+  "data_revision": "326c154ecc3b283992668a9098f013063ed328b2",
+  "training_episodes": [
+    0,
+    1,
+    2,
+    3
+  ],
+  "development_validation_episodes": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "treatments": [
+    "original",
+    "change_balanced"
+  ],
+  "updates": 200,
+  "initial_model_seed": 0,
+  "precision": "fp32",
+  "limitations": [
+    "One model seed and four training scenes only",
+    "Development data already inspected; not a formal test",
+    "No task success claim",
+    "Changed-image regions may include hand or pointer, not only objects"
+  ],
+  "purpose": "Check training path and whether uniform pixel loss overlooks sparse changes"
+}

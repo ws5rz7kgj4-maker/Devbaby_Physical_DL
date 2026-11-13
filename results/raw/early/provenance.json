@@ -1,0 +1,26 @@
+{
+  "documentation_snapshot_date": "2026-11-11",
+  "source_archives": [
+    {
+      "name": "DevBaby_Results_Analysis.html",
+      "sha256": "1fc2184ad6036070f46928f8f3c8ee0896a5d4d058ec584f31a196ab6d81577b",
+      "size_bytes": 72666
+    },
+    {
+      "name": "DevBaby_Physical_Final.zip",
+      "sha256": "63735a075d4e82df5aa7b34aa0a9fd90672652440117eb09cce8eb56e4865d81",
+      "size_bytes": 326919
+    },
+    {
+      "name": "DevBaby_Supplement.zip",
+      "sha256": "3741ee4737dc9bd137621f41f7761e3ca830162fb235b4e6ad085478fc9fd9f1",
+      "size_bytes": 2789072
+    }
+  ],
+  "hub_sources": {
+    "formal": "https://huggingface.co/datasets/swenlio/devbaby-results/tree/main/runs/formal-physical-eef2ff40",
+    "supplement": "https://huggingface.co/datasets/swenlio/devbaby-supplement-results/tree/main/runs/supplement-c2b8f789d4b0"
+  },
+  "access": "Private upstream repositories; compact evidence files are included locally. No tokens are included.",
+  "verification_scope": "Read saved completed states and result files; recompute aggregate arithmetic from CSV and per-seed final JSON. No training or new GPU jobs were launched. Full trial trajectories were not re-audited in this documentation pass."
+}

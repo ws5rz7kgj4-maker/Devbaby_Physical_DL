@@ -1,0 +1,89 @@
+seed,name,shape,requires_grad,exact_equal,max_abs_change,changed_elements,old_optimizer_has_state,old_optimizer_step,old_exp_avg_norm
+0,encoder.image.net.0.weight,"[24, 6, 4, 4]",True,True,0,0,False,,
+0,encoder.image.net.0.bias,[24],True,True,0,0,False,,
+0,encoder.image.net.2.weight,"[48, 24, 4, 4]",True,True,0,0,False,,
+0,encoder.image.net.2.bias,[48],True,True,0,0,False,,
+0,encoder.image.net.4.weight,"[64, 48, 4, 4]",True,True,0,0,False,,
+0,encoder.image.net.4.bias,[64],True,True,0,0,False,,
+0,encoder.image.net.6.weight,"[96, 64, 4, 4]",True,True,0,0,False,,
+0,encoder.image.net.6.bias,[96],True,True,0,0,False,,
+0,encoder.image.net.9.weight,"[192, 1536]",True,True,0,0,False,,
+0,encoder.image.net.9.bias,[192],True,True,0,0,False,,
+0,encoder.image.net.10.weight,[192],True,False,0.9275757074356079,192,True,4096,0.009323096764124099
+0,encoder.image.net.10.bias,[192],True,False,0.23961301147937775,192,True,4096,0.009339991156718748
+0,encoder.audio.0.weight,"[12, 1, 3, 3]",True,True,0,0,False,,
+0,encoder.audio.0.bias,[12],True,True,0,0,False,,
+0,encoder.audio.2.weight,"[24, 12, 3, 3]",True,True,0,0,False,,
+0,encoder.audio.2.bias,[24],True,True,0,0,False,,
+0,encoder.audio.5.weight,"[48, 768]",True,True,0,0,False,,
+0,encoder.audio.5.bias,[48],True,True,0,0,False,,
+0,encoder.fuse.0.weight,"[192, 250]",True,True,0,0,False,,
+0,encoder.fuse.0.bias,[192],True,True,0,0,False,,
+0,encoder.fuse.1.weight,[192],True,False,0.7941815853118896,192,True,4096,0.011084930226709507
+0,encoder.fuse.1.bias,[192],True,False,0.3192702829837799,192,True,4096,0.007017803632918289
+0,dynamics.weight_ih,"[576, 5]",True,True,0,0,False,,
+0,dynamics.weight_hh,"[576, 192]",True,True,0,0,False,,
+0,dynamics.bias_ih,[576],True,True,0,0,False,,
+0,dynamics.bias_hh,[576],True,True,0,0,False,,
+0,filter.weight_ih,"[576, 192]",True,True,0,0,False,,
+0,filter.weight_hh,"[576, 192]",True,True,0,0,False,,
+0,filter.bias_ih,[576],True,True,0,0,False,,
+0,filter.bias_hh,[576],True,True,0,0,False,,
+0,image_start.weight,"[1536, 192]",True,False,0.3440791741013527,294912,True,4096,0.0041767043887619365
+0,image_start.bias,[1536],True,False,0.13825803436338902,1536,True,4096,0.00410916358536151
+0,image_decoder.0.weight,"[96, 64, 4, 4]",True,False,0.2822734899818897,98304,True,4096,0.001030098531019014
+0,image_decoder.0.bias,[64],True,False,0.06088247522711754,64,True,4096,0.0021359098778090967
+0,image_decoder.2.weight,"[64, 48, 4, 4]",True,False,0.44842905923724174,49152,True,4096,0.00096108124886593
+0,image_decoder.2.bias,[48],True,False,0.07431977987289429,48,True,4096,0.0008803263256329132
+0,image_decoder.4.weight,"[48, 24, 4, 4]",True,False,0.38260990381240845,18432,True,4096,0.0007539775416111373
+0,image_decoder.4.bias,[24],True,False,0.06376416236162186,24,True,4096,0.001026601174150805
+0,image_decoder.6.weight,"[24, 6, 4, 4]",True,False,0.26744434237480164,2304,True,4096,0.0006478004718406352
+0,image_decoder.6.bias,[6],True,False,0.08188275760039687,6,True,4096,0.0017000989732976477
+0,body_decoder.0.weight,"[192, 192]",True,False,0.4031030796468258,36864,True,4096,0.009427672835998588
+0,body_decoder.0.bias,[192],True,False,0.04815398529171944,192,True,4096,0.003240744486993206
+0,body_decoder.2.weight,"[10, 192]",True,False,0.21344037353992462,1920,True,4096,0.016580321447004265
+0,body_decoder.2.bias,[10],True,False,0.024544674903154373,10,True,4096,0.004341687305620093
+1,encoder.image.net.0.weight,"[24, 6, 4, 4]",True,True,0,0,False,,
+1,encoder.image.net.0.bias,[24],True,True,0,0,False,,
+1,encoder.image.net.2.weight,"[48, 24, 4, 4]",True,True,0,0,False,,
+1,encoder.image.net.2.bias,[48],True,True,0,0,False,,
+1,encoder.image.net.4.weight,"[64, 48, 4, 4]",True,True,0,0,False,,
+1,encoder.image.net.4.bias,[64],True,True,0,0,False,,
+1,encoder.image.net.6.weight,"[96, 64, 4, 4]",True,True,0,0,False,,
+1,encoder.image.net.6.bias,[96],True,True,0,0,False,,
+1,encoder.image.net.9.weight,"[192, 1536]",True,True,0,0,False,,
+1,encoder.image.net.9.bias,[192],True,True,0,0,False,,
+1,encoder.image.net.10.weight,[192],True,False,0.6236674785614014,192,True,4096,0.0029271287461513653
+1,encoder.image.net.10.bias,[192],True,False,0.2157639116048813,192,True,4096,0.003100430697071691
+1,encoder.audio.0.weight,"[12, 1, 3, 3]",True,True,0,0,False,,
+1,encoder.audio.0.bias,[12],True,True,0,0,False,,
+1,encoder.audio.2.weight,"[24, 12, 3, 3]",True,True,0,0,False,,
+1,encoder.audio.2.bias,[24],True,True,0,0,False,,
+1,encoder.audio.5.weight,"[48, 768]",True,True,0,0,False,,
+1,encoder.audio.5.bias,[48],True,True,0,0,False,,
+1,encoder.fuse.0.weight,"[192, 250]",True,True,0,0,False,,
+1,encoder.fuse.0.bias,[192],True,True,0,0,False,,
+1,encoder.fuse.1.weight,[192],True,False,0.6376615762710571,192,True,4096,0.0030643457090097142
+1,encoder.fuse.1.bias,[192],True,False,0.28563225269317627,192,True,4096,0.002629028577592518
+1,dynamics.weight_ih,"[576, 5]",True,True,0,0,False,,
+1,dynamics.weight_hh,"[576, 192]",True,True,0,0,False,,
+1,dynamics.bias_ih,[576],True,True,0,0,False,,
+1,dynamics.bias_hh,[576],True,True,0,0,False,,
+1,filter.weight_ih,"[576, 192]",True,True,0,0,False,,
+1,filter.weight_hh,"[576, 192]",True,True,0,0,False,,
+1,filter.bias_ih,[576],True,True,0,0,False,,
+1,filter.bias_hh,[576],True,True,0,0,False,,
+1,image_start.weight,"[1536, 192]",True,False,0.3588595745386556,294912,True,4096,0.001791688337217414
+1,image_start.bias,[1536],True,False,0.16144128888845444,1536,True,4096,0.0017751748065641993
+1,image_decoder.0.weight,"[96, 64, 4, 4]",True,False,0.26711133122444153,98304,True,4096,0.0003893799086242349
+1,image_decoder.0.bias,[64],True,False,0.052943155169487,64,True,4096,0.0007758675595607846
+1,image_decoder.2.weight,"[64, 48, 4, 4]",True,False,0.45654327352531254,49152,True,4096,0.0002662749286258297
+1,image_decoder.2.bias,[48],True,False,0.04529032111167908,48,True,4096,0.0002712465375329239
+1,image_decoder.4.weight,"[48, 24, 4, 4]",True,False,0.31435646302998066,18432,True,4096,0.0002446751846633554
+1,image_decoder.4.bias,[24],True,False,0.05581126548349857,24,True,4096,0.0002595761442161595
+1,image_decoder.6.weight,"[24, 6, 4, 4]",True,False,0.2376953698694706,2304,True,4096,0.00030124263068986406
+1,image_decoder.6.bias,[6],True,False,0.06788907386362553,6,True,4096,0.0005142187996692301
+1,body_decoder.0.weight,"[192, 192]",True,False,0.4974007308483124,36864,True,4096,0.006247788933667416
+1,body_decoder.0.bias,[192],True,False,0.04182450473308563,192,True,4096,0.002455457514864414
+1,body_decoder.2.weight,"[10, 192]",True,False,0.23212524130940437,1920,True,4096,0.012614459475418649
+1,body_decoder.2.bias,[10],True,False,0.022640876471996307,10,True,4096,0.004017863969003947

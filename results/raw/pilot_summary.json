@@ -1,0 +1,350 @@
+{
+  "n_seeds": 8,
+  "means": {
+    "h1_s0.0": {
+      "contact_fraction": 0.0,
+      "contact_episode_fraction": 0.0,
+      "contact_onsets": 0.0,
+      "distinct_objects_contacted": 0.0,
+      "grasp_fraction": 0.0,
+      "grasp_onsets": 0.0,
+      "moving_fraction": 0.0,
+      "object_path_m": 0.003397499831124026,
+      "objects_displaced_2cm": 0.0,
+      "final_displacement_m": 0.0033949392443096424,
+      "action_rms": 0.897942915558815,
+      "action_change_rms": 1.2602493464946747,
+      "action_saturation_fraction": 0.7122395833333333
+    },
+    "h1_s0.12": {
+      "contact_fraction": 0.0,
+      "contact_episode_fraction": 0.0,
+      "contact_onsets": 0.0,
+      "distinct_objects_contacted": 0.0,
+      "grasp_fraction": 0.0,
+      "grasp_onsets": 0.0,
+      "moving_fraction": 0.0,
+      "object_path_m": 0.003397499831124026,
+      "objects_displaced_2cm": 0.0,
+      "final_displacement_m": 0.0033949392443096424,
+      "action_rms": 0.8991473838686943,
+      "action_change_rms": 1.2612665593624115,
+      "action_saturation_fraction": 0.712890625
+    },
+    "h1_s0.5": {
+      "contact_fraction": 0.00390625,
+      "contact_episode_fraction": 0.25,
+      "contact_onsets": 0.25,
+      "distinct_objects_contacted": 0.25,
+      "grasp_fraction": 0.001953125,
+      "grasp_onsets": 0.125,
+      "moving_fraction": 0.00390625,
+      "object_path_m": 0.035174130124223525,
+      "objects_displaced_2cm": 0.125,
+      "final_displacement_m": 0.0309430676956118,
+      "action_rms": 0.8997110202908516,
+      "action_change_rms": 1.2646578252315521,
+      "action_saturation_fraction": 0.7200520833333333
+    },
+    "h4_s0.0": {
+      "contact_fraction": 0.0048828125,
+      "contact_episode_fraction": 0.25,
+      "contact_onsets": 0.375,
+      "distinct_objects_contacted": 0.25,
+      "grasp_fraction": 0.00390625,
+      "grasp_onsets": 0.125,
+      "moving_fraction": 0.013671875,
+      "object_path_m": 0.11148383229325662,
+      "objects_displaced_2cm": 0.25,
+      "final_displacement_m": 0.08129756429784649,
+      "action_rms": 0.8060092255473137,
+      "action_change_rms": 0.6296385228633881,
+      "action_saturation_fraction": 0.5667317708333334
+    },
+    "h4_s0.12": {
+      "contact_fraction": 0.013671875,
+      "contact_episode_fraction": 0.375,
+      "contact_onsets": 0.625,
+      "distinct_objects_contacted": 0.375,
+      "grasp_fraction": 0.0078125,
+      "grasp_onsets": 0.25,
+      "moving_fraction": 0.0224609375,
+      "object_path_m": 0.18140002779483722,
+      "objects_displaced_2cm": 0.25,
+      "final_displacement_m": 0.146296995844794,
+      "action_rms": 0.8097851350903511,
+      "action_change_rms": 0.6402641385793686,
+      "action_saturation_fraction": 0.5696614583333333
+    },
+    "h4_s0.5": {
+      "contact_fraction": 0.0146484375,
+      "contact_episode_fraction": 0.375,
+      "contact_onsets": 0.5,
+      "distinct_objects_contacted": 0.375,
+      "grasp_fraction": 0.0078125,
+      "grasp_onsets": 0.25,
+      "moving_fraction": 0.0244140625,
+      "object_path_m": 0.19255324197716855,
+      "objects_displaced_2cm": 0.25,
+      "final_displacement_m": 0.14187511415667187,
+      "action_rms": 0.8449755534529686,
+      "action_change_rms": 0.7625033929944038,
+      "action_saturation_fraction": 0.6061197916666666
+    },
+    "h16_s0.0": {
+      "contact_fraction": 0.0107421875,
+      "contact_episode_fraction": 0.25,
+      "contact_onsets": 0.25,
+      "distinct_objects_contacted": 0.25,
+      "grasp_fraction": 0.0,
+      "grasp_onsets": 0.0,
+      "moving_fraction": 0.01171875,
+      "object_path_m": 0.0843537421153043,
+      "objects_displaced_2cm": 0.375,
+      "final_displacement_m": 0.08220397187165564,
+      "action_rms": 0.5136919803917408,
+      "action_change_rms": 0.26827942952513695,
+      "action_saturation_fraction": 0.224609375
+    },
+    "h16_s0.12": {
+      "contact_fraction": 0.0068359375,
+      "contact_episode_fraction": 0.25,
+      "contact_onsets": 0.25,
+      "distinct_objects_contacted": 0.25,
+      "grasp_fraction": 0.0,
+      "grasp_onsets": 0.0,
+      "moving_fraction": 0.0078125,
+      "object_path_m": 0.042575213980931656,
+      "objects_displaced_2cm": 0.375,
+      "final_displacement_m": 0.04130720535951453,
+      "action_rms": 0.5276034399867058,
+      "action_change_rms": 0.32104605436325073,
+      "action_saturation_fraction": 0.2265625
+    },
+    "h16_s0.5": {
+      "contact_fraction": 0.037109375,
+      "contact_episode_fraction": 0.5,
+      "contact_onsets": 0.75,
+      "distinct_objects_contacted": 0.625,
+      "grasp_fraction": 0.029296875,
+      "grasp_onsets": 0.25,
+      "moving_fraction": 0.037109375,
+      "object_path_m": 0.2051679668165687,
+      "objects_displaced_2cm": 0.5,
+      "final_displacement_m": 0.11025533440212192,
+      "action_rms": 0.6830529198050499,
+      "action_change_rms": 0.7056138217449188,
+      "action_saturation_fraction": 0.3017578125
+    },
+    "legacy": {
+      "contact_fraction": 0.0654296875,
+      "contact_episode_fraction": 0.5,
+      "contact_onsets": 0.75,
+      "distinct_objects_contacted": 0.75,
+      "grasp_fraction": 0.04296875,
+      "grasp_onsets": 0.25,
+      "moving_fraction": 0.072265625,
+      "object_path_m": 0.39856654669749636,
+      "objects_displaced_2cm": 0.875,
+      "final_displacement_m": 0.28031034623271106,
+      "action_rms": 0.6258335411548615,
+      "action_change_rms": 0.4053228311240673,
+      "action_saturation_fraction": 0.3203125
+    },
+    "iid_actions": {
+      "contact_fraction": 0.0048828125,
+      "contact_episode_fraction": 0.25,
+      "contact_onsets": 0.5,
+      "distinct_objects_contacted": 0.25,
+      "grasp_fraction": 0.0,
+      "grasp_onsets": 0.0,
+      "moving_fraction": 0.0029296875,
+      "object_path_m": 0.011572627579057571,
+      "objects_displaced_2cm": 0.125,
+      "final_displacement_m": 0.011172931979364472,
+      "action_rms": 0.5809079483151436,
+      "action_change_rms": 0.8173111081123352,
+      "action_saturation_fraction": 0.0006510416666666666
+    },
+    "idle": {
+      "contact_fraction": 0.0,
+      "contact_episode_fraction": 0.0,
+      "contact_onsets": 0.0,
+      "distinct_objects_contacted": 0.0,
+      "grasp_fraction": 0.0,
+      "grasp_onsets": 0.0,
+      "moving_fraction": 0.0,
+      "object_path_m": 0.003397499831124026,
+      "objects_displaced_2cm": 0.0,
+      "final_displacement_m": 0.0033949392443096424,
+      "action_rms": 0.0,
+      "action_change_rms": 0.0,
+      "action_saturation_fraction": 0.0
+    }
+  },
+  "reference": [
+    {
+      "seed_index": 0,
+      "scene_seed": 2750657250,
+      "task": "relocate",
+      "success": 1,
+      "distances": [
+        0.0003279369390325003,
+        0.002371659775735238
+      ]
+    },
+    {
+      "seed_index": 0,
+      "scene_seed": 2750657250,
+      "task": "lift",
+      "success": 1,
+      "distances": [
+        6.688349058624742e-08,
+        0.002371659775735238
+      ]
+    },
+    {
+      "seed_index": 1,
+      "scene_seed": 4282104677,
+      "task": "relocate",
+      "success": 1,
+      "distances": [
+        0.005953929277576896,
+        0.00012757947253752566
+      ]
+    },
+    {
+      "seed_index": 1,
+      "scene_seed": 4282104677,
+      "task": "lift",
+      "success": 1,
+      "distances": [
+        2.1217960101015193e-06,
+        0.00012757947253752566
+      ]
+    },
+    {
+      "seed_index": 2,
+      "scene_seed": 1120573223,
+      "task": "relocate",
+      "success": 0,
+      "distances": [
+        0.3327978228190685,
+        0.0016667043367803308
+      ]
+    },
+    {
+      "seed_index": 2,
+      "scene_seed": 1120573223,
+      "task": "lift",
+      "success": 1,
+      "distances": [
+        0.02489927997157165,
+        0.0016667043367803308
+      ]
+    },
+    {
+      "seed_index": 3,
+      "scene_seed": 3690097100,
+      "task": "relocate",
+      "success": 1,
+      "distances": [
+        0.0025335333911912818,
+        0.0019429516905726872
+      ]
+    },
+    {
+      "seed_index": 3,
+      "scene_seed": 3690097100,
+      "task": "lift",
+      "success": 1,
+      "distances": [
+        1.8585876218927496e-15,
+        0.0019429516905726872
+      ]
+    },
+    {
+      "seed_index": 4,
+      "scene_seed": 2029417891,
+      "task": "relocate",
+      "success": 1,
+      "distances": [
+        0.016917009298965453,
+        0.0009106823618438521
+      ]
+    },
+    {
+      "seed_index": 4,
+      "scene_seed": 2029417891,
+      "task": "lift",
+      "success": 1,
+      "distances": [
+        0.01784527720159709,
+        0.0009106823618438521
+      ]
+    },
+    {
+      "seed_index": 5,
+      "scene_seed": 3016504328,
+      "task": "relocate",
+      "success": 1,
+      "distances": [
+        0.007261584013805222,
+        0.0020256127220257417
+      ]
+    },
+    {
+      "seed_index": 5,
+      "scene_seed": 3016504328,
+      "task": "lift",
+      "success": 1,
+      "distances": [
+        1.629047103329049e-06,
+        0.0020256127220257417
+      ]
+    },
+    {
+      "seed_index": 6,
+      "scene_seed": 812183114,
+      "task": "relocate",
+      "success": 1,
+      "distances": [
+        0.007332115970792361,
+        0.0015182626341567731
+      ]
+    },
+    {
+      "seed_index": 6,
+      "scene_seed": 812183114,
+      "task": "lift",
+      "success": 1,
+      "distances": [
+        3.911009038761789e-07,
+        0.0015182626341567731
+      ]
+    },
+    {
+      "seed_index": 7,
+      "scene_seed": 2566034535,
+      "task": "relocate",
+      "success": 1,
+      "distances": [
+        0.007351364342388843,
+        0.0020126354457183798
+      ]
+    },
+    {
+      "seed_index": 7,
+      "scene_seed": 2566034535,
+      "task": "lift",
+      "success": 1,
+      "distances": [
+        0.0001283474820675174,
+        0.0020126354457183798
+      ]
+    }
+  ],
+  "elapsed_s": 106.20460677146912,
+  "status": "DIAGNOSTIC_ONLY_NOT_TRAINING",
+  "formal_training_gate": "HOLD_PENDING_CONTROLLER_AND_INFORMATION_AUDIT"
+}

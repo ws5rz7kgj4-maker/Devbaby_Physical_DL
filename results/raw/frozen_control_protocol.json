@@ -1,0 +1,37 @@
+{
+  "version": "frozen-control-audit-v1",
+  "source": "runs/worldmodel-dacc6ff327cf",
+  "revision": "e0732eba95ebd3b99996b1b8d67931ec25fe1411",
+  "model_seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "ages": [
+    0,
+    16384,
+    32768,
+    65536
+  ],
+  "new_prediction_episodes": 8,
+  "new_ranking_scenes": 4,
+  "candidate_count": 8,
+  "horizons": [
+    8,
+    32,
+    64
+  ],
+  "training": false,
+  "limitations": [
+    "Posthoc diagnostic, not confirmatory generalization test",
+    "Reversed actions are a mismatch diagnostic, not their ground-truth counterfactual outcome",
+    "One privileged candidate is a positive control; not training data and not a learned success rate",
+    "Ranking tests a fixed candidate set, not full CEM optimization",
+    "Pixel error may reflect background; object ROI is evaluator-only"
+  ]
+}

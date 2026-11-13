@@ -1,0 +1,18 @@
+{
+  "development_only": false,
+  "models": 216,
+  "training_interactions_per_seed": 65536,
+  "training_seed_count": 8,
+  "trainable_audio_arms": 5,
+  "physical_panels": 1762,
+  "physical_episodes": {
+    "development": 9600,
+    "test": 20016,
+    "adaptation": 1536
+  },
+  "maximum_real_evaluation_steps": 3987456,
+  "diagnostic_panels": 320,
+  "raw_episode_steps": 128,
+  "hard_job_hours": 24,
+  "note": "A full study may need multiple explicitly requested paid jobs. No automatic resubmission. plan counts are not runtime or success forecasts."
+}

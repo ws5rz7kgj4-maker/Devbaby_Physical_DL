@@ -1,0 +1,162 @@
+[
+  {
+    "seed_index": 0,
+    "scene_seed": 2750657250,
+    "task": "relocate",
+    "success": 1,
+    "distances": [
+      0.0003279369390325003,
+      0.002371659775735238
+    ]
+  },
+  {
+    "seed_index": 0,
+    "scene_seed": 2750657250,
+    "task": "lift",
+    "success": 1,
+    "distances": [
+      6.688349058624742e-08,
+      0.002371659775735238
+    ]
+  },
+  {
+    "seed_index": 1,
+    "scene_seed": 4282104677,
+    "task": "relocate",
+    "success": 1,
+    "distances": [
+      0.005953929277576896,
+      0.00012757947253752566
+    ]
+  },
+  {
+    "seed_index": 1,
+    "scene_seed": 4282104677,
+    "task": "lift",
+    "success": 1,
+    "distances": [
+      2.1217960101015193e-06,
+      0.00012757947253752566
+    ]
+  },
+  {
+    "seed_index": 2,
+    "scene_seed": 1120573223,
+    "task": "relocate",
+    "success": 0,
+    "distances": [
+      0.3327978228190685,
+      0.0016667043367803308
+    ]
+  },
+  {
+    "seed_index": 2,
+    "scene_seed": 1120573223,
+    "task": "lift",
+    "success": 1,
+    "distances": [
+      0.02489927997157165,
+      0.0016667043367803308
+    ]
+  },
+  {
+    "seed_index": 3,
+    "scene_seed": 3690097100,
+    "task": "relocate",
+    "success": 1,
+    "distances": [
+      0.0025335333911912818,
+      0.0019429516905726872
+    ]
+  },
+  {
+    "seed_index": 3,
+    "scene_seed": 3690097100,
+    "task": "lift",
+    "success": 1,
+    "distances": [
+      1.8585876218927496e-15,
+      0.0019429516905726872
+    ]
+  },
+  {
+    "seed_index": 4,
+    "scene_seed": 2029417891,
+    "task": "relocate",
+    "success": 1,
+    "distances": [
+      0.016917009298965453,
+      0.0009106823618438521
+    ]
+  },
+  {
+    "seed_index": 4,
+    "scene_seed": 2029417891,
+    "task": "lift",
+    "success": 1,
+    "distances": [
+      0.01784527720159709,
+      0.0009106823618438521
+    ]
+  },
+  {
+    "seed_index": 5,
+    "scene_seed": 3016504328,
+    "task": "relocate",
+    "success": 1,
+    "distances": [
+      0.007261584013805222,
+      0.0020256127220257417
+    ]
+  },
+  {
+    "seed_index": 5,
+    "scene_seed": 3016504328,
+    "task": "lift",
+    "success": 1,
+    "distances": [
+      1.629047103329049e-06,
+      0.0020256127220257417
+    ]
+  },
+  {
+    "seed_index": 6,
+    "scene_seed": 812183114,
+    "task": "relocate",
+    "success": 1,
+    "distances": [
+      0.007332115970792361,
+      0.0015182626341567731
+    ]
+  },
+  {
+    "seed_index": 6,
+    "scene_seed": 812183114,
+    "task": "lift",
+    "success": 1,
+    "distances": [
+      3.911009038761789e-07,
+      0.0015182626341567731
+    ]
+  },
+  {
+    "seed_index": 7,
+    "scene_seed": 2566034535,
+    "task": "relocate",
+    "success": 1,
+    "distances": [
+      0.007351364342388843,
+      0.0020126354457183798
+    ]
+  },
+  {
+    "seed_index": 7,
+    "scene_seed": 2566034535,
+    "task": "lift",
+    "success": 1,
+    "distances": [
+      0.0001283474820675174,
+      0.0020126354457183798
+    ]
+  }
+]

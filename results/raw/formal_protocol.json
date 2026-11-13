@@ -1,0 +1,133 @@
+{
+  "version": "DevBaby-worldmodel-v2",
+  "development_only": false,
+  "namespace": "devbaby-wm2-fresh-20261023-v1",
+  "seeds": [
+    0,
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7
+  ],
+  "arms": [
+    "full",
+    "silent",
+    "impact_only",
+    "speech_only",
+    "shuffled"
+  ],
+  "ages": [
+    0,
+    16384,
+    32768,
+    65536
+  ],
+  "config": {
+    "hidden": 192,
+    "audio_dim": 48,
+    "batch_size": 8,
+    "burn_in": 8,
+    "train_steps": 16,
+    "unroll": 32,
+    "episode_steps": 128,
+    "updates_per_block": 256,
+    "episodes_per_block": 32,
+    "blocks": 16,
+    "planning_budget": 2048,
+    "planning_iterations": 3,
+    "action_repeat": 4,
+    "task_steps": 128
+  },
+  "domains": [
+    "iid",
+    "new_physics",
+    "new_layout",
+    "occluded",
+    "material_shift"
+  ],
+  "tasks": [
+    "relocate",
+    "lift",
+    "stack_2",
+    "arrange_2",
+    "arrange_3"
+  ],
+  "audio_domains": [
+    "new_physics",
+    "occluded",
+    "material_shift"
+  ],
+  "audio_tasks": [
+    "relocate",
+    "arrange_2"
+  ],
+  "long_domains": [
+    "iid",
+    "new_layout"
+  ],
+  "long_tasks": [
+    "stack_2",
+    "arrange_2",
+    "arrange_3"
+  ],
+  "planning_horizons": [
+    8,
+    32,
+    64
+  ],
+  "trials": 24,
+  "development_trials": 12,
+  "prediction_context": 16,
+  "prediction_horizons": [
+    1,
+    2,
+    4,
+    8,
+    16,
+    32,
+    64
+  ],
+  "prediction_episodes": 24,
+  "probe_fit_episodes": 24,
+  "probe_stride": 4,
+  "probe_ridge": 10.0,
+  "adaptation_domain": "new_physics",
+  "adaptation_budgets": [
+    0,
+    256,
+    1024,
+    4096
+  ],
+  "adaptation_updates_per_episode": 16,
+  "adaptation_trials": 12,
+  "bootstrap_draws": 5000,
+  "job_seconds": 82800,
+  "sync_seconds": 900,
+  "primary_family": [
+    "full_minus_silent",
+    "full_minus_shuffled",
+    "full_minus_impact_only",
+    "full_minus_speech_only",
+    "horizon64_minus_horizon8",
+    "worldmodel_minus_gcbc"
+  ],
+  "stopping": "Fixed budgets; no performance-based stopping, test-driven selection or automatic paid retries.",
+  "goal_interface": "Final two-view target images and image-derived change weights only; no object truth, subgoals, hand path or task name reaches learned policies.",
+  "prediction_scope": "Rigid objects: image prediction plus frozen diagnostic readouts of pose, velocity, angular velocity, contact and object identity; labeled probes never enter world-model optimization or planning.",
+  "seal": "Training, adaptation and probe fitting finish before final evaluation. New code/protocol after viewing final results requires a new namespace and run ID.",
+  "interpretation": "Fully synthetic, random initialization. Same PyBullet point effector and programmed grasp primitive. Research implementation inspired by latent-dynamics planning, not a published-method reproduction. This protocol tests capabilities; it does not guarantee them or test consciousness.",
+  "bc_domains": [
+    "new_physics",
+    "new_layout"
+  ],
+  "bc_tasks": [
+    "relocate",
+    "lift",
+    "stack_2",
+    "arrange_2",
+    "arrange_3"
+  ]
+}

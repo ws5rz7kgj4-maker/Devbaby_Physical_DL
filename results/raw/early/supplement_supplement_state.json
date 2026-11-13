@@ -1,0 +1,8 @@
+{
+  "status": "completed",
+  "phase": "completed",
+  "protocol_sha256": "230ded4ddd009c09f5b2580eb11e6ccf04dd41257055b4232eb04d4087f8e238",
+  "development_only": false,
+  "training_complete": true,
+  "elapsed_this_job_seconds": 48489.62517303199
+}

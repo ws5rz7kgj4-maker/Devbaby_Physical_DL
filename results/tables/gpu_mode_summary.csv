@@ -1,0 +1,4 @@
+mode,parameter_tensors,gradients_present,finite_gradients,nonzero_updates,recurrent_tensors,recurrent_gradients_present,recurrent_nonzero_updates
+fp32,44,44,44,44,8,8,8
+amp_cache_on,44,18,18,16,8,0,0
+amp_cache_off,44,44,44,42,8,8,8

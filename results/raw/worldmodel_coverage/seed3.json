@@ -1,0 +1,28 @@
+{
+  "episodes": 512,
+  "transitions": 65536,
+  "frames_with_hand_contact": 2690,
+  "frames_with_grasp": 2883,
+  "frames_with_moving_object": 4057,
+  "object_instances": 1288,
+  "materials": {
+    "wood": 447,
+    "rubber": 393,
+    "metal": 448
+  },
+  "shapes": {
+    "block": 380,
+    "cylinder": 463,
+    "ball": 445
+  },
+  "colors": {
+    "blue": 324,
+    "red": 294,
+    "green": 343,
+    "yellow": 327
+  },
+  "frames_with_hand_contact_fraction": 0.041046142578125,
+  "frames_with_grasp_fraction": 0.0439910888671875,
+  "frames_with_moving_object_fraction": 0.0619049072265625,
+  "interpretation": "Coverage is descriptive only; low contact/grasp coverage can explain failure. It never changes training budgets or selects test scenes."
+}

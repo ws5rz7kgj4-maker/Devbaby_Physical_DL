@@ -1,0 +1,12 @@
+{
+  "results/raw/baseline_summary.json": "d586b147eeae145bd85d71441f7629ffc001ce1882f341db7e33bf96d6bce062",
+  "results/raw/baseline_protocol.json": "1351224901b86fd2c2b2abba3e0b122832374c6ed0ab6ac75b24a6ad8d1ed30a",
+  "results/raw/frozen_control_summary.json": "6fc94a2ed52819c523323ea6d678284dae670795b9b00106e64cf9c2a8cf79a8",
+  "results/raw/pilot_summary.json": "15d70fa05d780ef317adb6179b5d43670f2dd6fa08043b3dbfdb4bb99bcb6f49",
+  "results/raw/pilot_episodes_enriched.json": "99ac93d554ed0c2a7daa49aa1ce58ec97c62a90339224c6ff5e2098c3273ea3f",
+  "results/raw/pilot_protocol.json": "5f1abf185b61edde415acabdbab40682ab823d983c315de2e2aba19038fc931a",
+  "results/raw/pilot_analysis.json": "485661af79e3a41edebd3ef13b8f6ffaa130b8e94095228f5a8a09647fd2c217",
+  "results/raw/pilot_reference.json": "4917d33af0d57f2333b151e4e3c60f3d891550f53ffddd91a05368f04cecff44",
+  "results/raw/parameter_cpu_result.json": "4f8cc948d433fcf539d37e1277f2f797e25882657b7c9286b8da763e65e1da88",
+  "results/raw/parameter_gpu_result.json": "0a29a9f8b2970c6e9493f20fd4096af8f47c32694f34bafdf518cb11daa70846"
+}

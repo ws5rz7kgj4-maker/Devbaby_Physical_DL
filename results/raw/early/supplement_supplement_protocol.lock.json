@@ -1,0 +1,153 @@
+{
+  "protocol": {
+    "version": "DevBaby-supplement-v1",
+    "development_only": false,
+    "source_run": "formal-physical-eef2ff40",
+    "source_protocol_sha256": "6d7277597bf82f318cb8db9b111cdc2c5af3962135f3ea7c940dbbfdc66b5976",
+    "source_archive_sha256": "eef2ff40383ff64a46d1a0bc186a3829fc6502ce09700d5e7120e53ae65d8840",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "source_ages": [
+      0,
+      16384,
+      32768
+    ],
+    "mature_source_age": 32768,
+    "source_blocks": [
+      0,
+      8,
+      16
+    ],
+    "history_updates_per_block": 512,
+    "history_length": 8,
+    "history_width": 256,
+    "history_cache_episodes": 32,
+    "adaptation_domains": [
+      "new_dynamics",
+      "delay_3",
+      "delay_6"
+    ],
+    "adaptation_tasks": [
+      "reach",
+      "touch",
+      "grasp_lift"
+    ],
+    "arms": [
+      "frozen",
+      "full_update",
+      "low_lr",
+      "frozen_encoder",
+      "replay_mix",
+      "history"
+    ],
+    "budgets": [
+      0,
+      128,
+      512,
+      2048
+    ],
+    "adaptation_updates_per_episode": 16,
+    "development_domains": [
+      "iid",
+      "new_dynamics",
+      "new_layout",
+      "delay_3",
+      "joint_physics"
+    ],
+    "delay_domains": [
+      "delay_0",
+      "delay_1",
+      "delay_2",
+      "delay_3",
+      "delay_4",
+      "delay_6"
+    ],
+    "push_domains": [
+      "iid",
+      "new_dynamics",
+      "new_layout",
+      "delay_3"
+    ],
+    "development_trials": 12,
+    "validation_trials": 12,
+    "final_trials": 32,
+    "retention_trials": 12,
+    "diagnostic_episodes": 4,
+    "diagnostic_horizons": [
+      1,
+      2,
+      4,
+      8
+    ],
+    "namespace": "devbaby-supplement-v1-20261023-new-panels",
+    "bootstrap_replicates": 10000,
+    "job_seconds": 82800,
+    "sync_seconds": 900,
+    "record_evaluation_sensory": true,
+    "stopping": "Fixed budgets; no outcome-dependent selection or automatic paid retries. Time-cap jobs resume identical checkpoints.",
+    "primary_family": [
+      "full_update_minus_frozen",
+      "replay_mix_minus_full_update",
+      "frozen_encoder_minus_full_update",
+      "low_lr_minus_full_update",
+      "history_minus_full_update",
+      "history_minus_frozen"
+    ],
+    "statistics": "Final-budget mature physical success, equal task/domain weights; crossed paired seed-and-scene bootstrap CIs, paired seed exact sign-flip p-values, Holm across six planned contrasts. Other tests exploratory.",
+    "scope": "All sensory experience synthetic. Original trained Baby weights reused; explicit-history proprioceptive dynamics baseline starts random and uses identical original experience. Push is an additional task and geometry in the same PyBullet simulator. Spatial goals, grasp primitive, CEM cost and push decomposition are supplied. No published baseline reproduction, independent simulator, consciousness, general intelligence or language-contribution claim.",
+    "seal": "All model training completes before final evaluation. Protocol, code and source revision locked before work. Any change after viewing final results requires a new namespace and experiment ID.",
+    "physics_steps": 40
+  },
+  "code_sha256": "c5f44cedcf3e3ad0bc95548e5163d4dffd3e39b15ed60c542766e45250bfaac5",
+  "source": {
+    "repo_id": "swenlio/devbaby-results",
+    "repo_type": "dataset",
+    "revision": "4dc08caf0b0dc1448f3869bd6cbe12c2c0f30683",
+    "run_id": "formal-physical-eef2ff40",
+    "protocol_sha256": "6d7277597bf82f318cb8db9b111cdc2c5af3962135f3ea7c940dbbfdc66b5976",
+    "original_source_sha256": "eef2ff40383ff64a46d1a0bc186a3829fc6502ce09700d5e7120e53ae65d8840"
+  },
+  "source_fingerprints": {
+    "members/full-s0/config.json": "98396e13cdac29fea76ac37436928554b84d820c256183097b3872d6fc627291",
+    "members/full-s0/checkpoints/model_00000000.pt": "560f8b625c177631eceb9907cc62dd2ee55eb8b18e8a600f83b5cbf3a97d7c93",
+    "members/full-s0/checkpoints/model_00004096.pt": "d6b1d629759bab214776d4ebb4f98a1611e05f3044a9a9f0fde1b81f5fd6d10e",
+    "members/full-s0/checkpoints/model_00008192.pt": "966b497f37b7f7787fd2e9389d4b16f5794fe6bb8e808f74e4ba4fac0f164bfc",
+    "members/full-s1/config.json": "e47b985f9058c23780dab1338aea3b4a75ce4ca5fe698fa64665be946421ea0e",
+    "members/full-s1/checkpoints/model_00000000.pt": "97e8030dc18aefb712c597a28d7cd51897dbb7572fd7e0c651865f7fa7a41d90",
+    "members/full-s1/checkpoints/model_00004096.pt": "5eaa9007d891a04b283f8b96073f15ded327b95995b4b59638a73e1c49732aa5",
+    "members/full-s1/checkpoints/model_00008192.pt": "09a3862e7c0c8f2e3ce76c676f5acbd8bc85bb2678f1d2aef423b88486726f03",
+    "members/full-s2/config.json": "7ef69348ef216acc55fdb6a35c3953f1f787c62b17c9678708bb4784e3572749",
+    "members/full-s2/checkpoints/model_00000000.pt": "1f31728a1f92eb7349fb8d79ac6e18c1665a5919a7e33997c21b64e3927879b0",
+    "members/full-s2/checkpoints/model_00004096.pt": "d408c639c3f0a0b89a5427f61c2a310212365508085ef48841d1969de336cb14",
+    "members/full-s2/checkpoints/model_00008192.pt": "93c08a42a3c4312921c5e488e4fcedc083ed8805d386926ee0c8c4dd48221dd5",
+    "members/full-s3/config.json": "f0629875e936c705e5b5e9dfac8b520817eb3fed6be4d75954891cfc95c146ff",
+    "members/full-s3/checkpoints/model_00000000.pt": "fa325999c3f88a5e7397e9baac97dc1ddd18e8424eedaa887e5bae26ac8a4fa2",
+    "members/full-s3/checkpoints/model_00004096.pt": "d3177db764d995b22a1c374bbf3007cec0354f72b8f2b5cb08246604d5614963",
+    "members/full-s3/checkpoints/model_00008192.pt": "c31c876e4e22804a4cdc683df5c03fbd508aabd66511fc531d70de26322e4359",
+    "members/full-s4/config.json": "e064dbc73b72ec24c9506dc8261c12b8b3f8ccc3011e2372b23e9649ef0a7c2c",
+    "members/full-s4/checkpoints/model_00000000.pt": "f23362e09a16e97dfe983a3447a1774173baf8ea832e131588fa47d0e8f5fdd6",
+    "members/full-s4/checkpoints/model_00004096.pt": "da21c965f0ad9632295786c54648c765bfb54a6e62d9e3c595337a16145b3357",
+    "members/full-s4/checkpoints/model_00008192.pt": "ffc487b434b32f42f63890f51ab02487b4b8f07671ad9322899b6f039c6ff2b9",
+    "members/full-s5/config.json": "38a873017af016032fd2ceda63dc2a94bca16aeca56c44726e866a527bf252ea",
+    "members/full-s5/checkpoints/model_00000000.pt": "b5b275af75892762f39d78565971aa71e74a278e70268c17678c8a4fa5ad5c8c",
+    "members/full-s5/checkpoints/model_00004096.pt": "ba8028b525e0be75071f2d780197de3b34b0536e837853313f269581549848e3",
+    "members/full-s5/checkpoints/model_00008192.pt": "2ef1f72099728a0ee9f1153ade59f77c540ba94c0bde29b178a582c86d2bcba2",
+    "members/full-s6/config.json": "a73da468bd8b9ac4baa329f6e41779f8d117fb184ee0c710780ee71a858bf4bf",
+    "members/full-s6/checkpoints/model_00000000.pt": "9f922b98ce9fc26844276abc8b34ab311d92af858a146c94825def3064fac36f",
+    "members/full-s6/checkpoints/model_00004096.pt": "e7b99632ca97b14dfdb4a89c50ebcd2bfbb9e68a9ea63e91712147eba7a597b0",
+    "members/full-s6/checkpoints/model_00008192.pt": "eae995263bccd5ec3845bab7ac50be7838888b919cce3f0433db36beee029c30",
+    "members/full-s7/config.json": "08542bb9587b0c5abe8e5fe67dea55747dc9936cd7aed11c93820c3df8c948b9",
+    "members/full-s7/checkpoints/model_00000000.pt": "ee1ecce29fbfde7f2ce6e4de4c739ecf79c88d1b733111a12bfa28a2afc367ad",
+    "members/full-s7/checkpoints/model_00004096.pt": "3ea1b8febbb28dc8f75e5df31894112b299fe35e749a2987e91396c21c40e24e",
+    "members/full-s7/checkpoints/model_00008192.pt": "6d85f4dd7922f2f179ed0e3c9a72fff26ff44a18e4f5ce06b0bedf73d0ffcf31"
+  },
+  "sha256": "230ded4ddd009c09f5b2580eb11e6ccf04dd41257055b4232eb04d4087f8e238"
+}

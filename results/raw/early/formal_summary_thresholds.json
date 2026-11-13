@@ -1,0 +1,734 @@
+{
+  "training": [
+    {
+      "variant": "full",
+      "seed": 0,
+      "normalized_auc": 0.5868055555555556,
+      "growth_pp_per_1000_interactions": [
+        null,
+        7.459852430555556,
+        -0.33908420138888906,
+        2.0345052083333317,
+        0.6781684027777808
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 8192,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "full",
+      "seed": 1,
+      "normalized_auc": 0.6024305555555556,
+      "growth_pp_per_1000_interactions": [
+        null,
+        7.798936631944444,
+        0.5086263020833356,
+        0.3390842013888877,
+        0.6781684027777781
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 8192,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "full",
+      "seed": 2,
+      "normalized_auc": 0.5798611111111112,
+      "growth_pp_per_1000_interactions": [
+        null,
+        7.62939453125,
+        -0.6781684027777767,
+        1.3563368055555562,
+        1.1867947048611096
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 8192,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "full",
+      "seed": 3,
+      "normalized_auc": 0.5850694444444444,
+      "growth_pp_per_1000_interactions": [
+        null,
+        7.968478732638889,
+        0.3390842013888904,
+        -2.710505431213761e-15,
+        -0.3390842013888877
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 8192,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "full",
+      "seed": 4,
+      "normalized_auc": 0.6041666666666666,
+      "growth_pp_per_1000_interactions": [
+        null,
+        6.951226128472222,
+        1.6954210069444453,
+        0.5086263020833315,
+        0.3390842013888904
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 8192,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "full",
+      "seed": 5,
+      "normalized_auc": 0.5677083333333333,
+      "growth_pp_per_1000_interactions": [
+        null,
+        6.442599826388889,
+        1.3563368055555547,
+        0.6781684027777795,
+        0.16954210069444384
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 8192,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "full",
+      "seed": 6,
+      "normalized_auc": 0.5486111111111112,
+      "growth_pp_per_1000_interactions": [
+        null,
+        7.290310329861111,
+        0.5086263020833343,
+        -0.3390842013888904,
+        1.0172526041666659
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 8192,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "full",
+      "seed": 7,
+      "normalized_auc": 0.6319444444444444,
+      "growth_pp_per_1000_interactions": [
+        null,
+        9.155273437499998,
+        1.3552527156068805e-15,
+        -1.0172526041666672,
+        0.6781684027777781
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 8192,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 0,
+      "normalized_auc": 0.013888888888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 1,
+      "normalized_auc": 0.013888888888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 2,
+      "normalized_auc": 0.013888888888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 3,
+      "normalized_auc": 0.013888888888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 4,
+      "normalized_auc": 0.013888888888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 5,
+      "normalized_auc": 0.013888888888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 6,
+      "normalized_auc": 0.013888888888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "variant": "no_action",
+      "seed": 7,
+      "normalized_auc": 0.013888888888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    }
+  ],
+  "adaptation": [
+    {
+      "seed": 0,
+      "age_block": 0,
+      "baseline_success": 0.05555555555555555,
+      "normalized_gain_auc": 0.20225694444444442,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.2578125,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -21.70138888888889,
+        86.80555555555554,
+        -9.04224537037037
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 1,
+      "age_block": 0,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.2152777777777778,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.2152777777777778,
+      "growth_pp_per_1000_interactions": [
+        null,
+        43.40277777777778,
+        43.40277777777777,
+        3.61689814814815
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 2,
+      "age_block": 0,
+      "baseline_success": 0.027777777777777776,
+      "normalized_gain_auc": 0.2743055555555555,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.3020833333333333,
+      "growth_pp_per_1000_interactions": [
+        null,
+        21.70138888888889,
+        79.57175925925927,
+        -1.808449074074075
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 3,
+      "age_block": 0,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.2942708333333333,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.2942708333333333,
+      "growth_pp_per_1000_interactions": [
+        null,
+        0.0,
+        94.03935185185185,
+        -1.808449074074071
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 4,
+      "age_block": 0,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.13194444444444442,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.13194444444444442,
+      "growth_pp_per_1000_interactions": [
+        null,
+        43.40277777777778,
+        14.467592592592593,
+        5.425347222222221
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 5,
+      "age_block": 0,
+      "baseline_success": 0.027777777777777776,
+      "normalized_gain_auc": 0.2829861111111111,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.31076388888888884,
+      "growth_pp_per_1000_interactions": [
+        null,
+        43.40277777777778,
+        86.80555555555554,
+        -9.04224537037037
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 6,
+      "age_block": 0,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.4071180555555555,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.4071180555555555,
+      "growth_pp_per_1000_interactions": [
+        null,
+        21.70138888888889,
+        130.20833333333334,
+        -7.233796296296297
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 7,
+      "age_block": 0,
+      "baseline_success": 0.0,
+      "normalized_gain_auc": 0.37239583333333326,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.37239583333333326,
+      "growth_pp_per_1000_interactions": [
+        null,
+        65.10416666666666,
+        86.80555555555554,
+        1.808449074074075
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 0,
+      "age_block": 8,
+      "baseline_success": 0.5277777777777778,
+      "normalized_gain_auc": -0.05468750000000003,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.4730902777777778,
+      "growth_pp_per_1000_interactions": [
+        null,
+        65.1041666666667,
+        -57.8703703703704,
+        9.042245370370376
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 1,
+      "age_block": 8,
+      "baseline_success": 0.5833333333333334,
+      "normalized_gain_auc": -0.09114583333333337,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.4921875,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -65.1041666666667,
+        0.0,
+        -1.808449074074075
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 2,
+      "age_block": 8,
+      "baseline_success": 0.5277777777777777,
+      "normalized_gain_auc": 0.0026041666666667337,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.5303819444444444,
+      "growth_pp_per_1000_interactions": [
+        null,
+        65.10416666666679,
+        -43.4027777777778,
+        10.850694444444443
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 3,
+      "age_block": 8,
+      "baseline_success": 0.5555555555555556,
+      "normalized_gain_auc": -0.05381944444444447,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.5017361111111112,
+      "growth_pp_per_1000_interactions": [
+        null,
+        21.7013888888889,
+        -21.7013888888889,
+        -1.808449074074075
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 4,
+      "age_block": 8,
+      "baseline_success": 0.6388888888888888,
+      "normalized_gain_auc": -0.12065972222222217,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.5182291666666666,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -86.8055555555555,
+        -7.2337962962963,
+        1.808449074074075
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 5,
+      "age_block": 8,
+      "baseline_success": 0.5277777777777778,
+      "normalized_gain_auc": -0.03472222222222224,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.4930555555555555,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -21.7013888888889,
+        7.2337962962963,
+        -5.425347222222225
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 6,
+      "age_block": 8,
+      "baseline_success": 0.6388888888888888,
+      "normalized_gain_auc": -0.14062499999999992,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.4982638888888889,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -195.31249999999994,
+        50.63657407407408,
+        -10.850694444444445
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 7,
+      "age_block": 8,
+      "baseline_success": 0.6111111111111112,
+      "normalized_gain_auc": -0.09375000000000004,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.517361111111111,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -65.1041666666667,
+        -7.2337962962963,
+        1.808449074074075
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 0,
+      "age_block": 16,
+      "baseline_success": 0.6666666666666667,
+      "normalized_gain_auc": -0.17447916666666677,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.4921875,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -130.2083333333334,
+        -7.2337962962963,
+        1.808449074074075
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 1,
+      "age_block": 16,
+      "baseline_success": 0.6944444444444444,
+      "normalized_gain_auc": -0.2552083333333333,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.4392361111111111,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -325.5208333333333,
+        36.16898148148148,
+        5.425347222222221
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 2,
+      "age_block": 16,
+      "baseline_success": 0.5833333333333333,
+      "normalized_gain_auc": -0.02430555555555546,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.5590277777777778,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -21.70138888888881,
+        7.2337962962963,
+        -3.61689814814815
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 3,
+      "age_block": 16,
+      "baseline_success": 0.6388888888888888,
+      "normalized_gain_auc": -0.17534722222222218,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.46354166666666663,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -151.9097222222222,
+        7.2337962962963,
+        -1.808449074074075
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": null,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 4,
+      "age_block": 16,
+      "baseline_success": 0.6111111111111112,
+      "normalized_gain_auc": -0.0581597222222223,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.5529513888888888,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -21.7013888888889,
+        -2.891205793294679e-14,
+        -5.425347222222218
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 5,
+      "age_block": 16,
+      "baseline_success": 0.6388888888888888,
+      "normalized_gain_auc": -0.09548611111111105,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.5434027777777778,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -108.5069444444444,
+        -7.2337962962963,
+        10.85069444444445
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 6,
+      "age_block": 16,
+      "baseline_success": 0.75,
+      "normalized_gain_auc": -0.26302083333333337,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.48697916666666663,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -195.3125,
+        0.0,
+        -3.61689814814815
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    },
+    {
+      "seed": 7,
+      "age_block": 16,
+      "baseline_success": 0.6111111111111112,
+      "normalized_gain_auc": -0.11545138888888895,
+      "near_ceiling_at_start": false,
+      "normalized_auc": 0.4956597222222222,
+      "growth_pp_per_1000_interactions": [
+        null,
+        -21.701388888888985,
+        -14.467592592592569,
+        -7.2337962962963
+      ],
+      "sustained_threshold_interactions": {
+        "0.5": 0,
+        "0.8": null
+      },
+      "threshold_note": "null means threshold was not observed at two consecutive scheduled evaluations"
+    }
+  ]
+}

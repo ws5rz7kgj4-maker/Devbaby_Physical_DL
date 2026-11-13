@@ -1,0 +1,100 @@
+{
+  "update": 8192,
+  "interactions": 32768,
+  "physical": {
+    "cells": {
+      "iid": {
+        "reach": {
+          "success_rate": 1.0,
+          "n": 24,
+          "mean_final_distance_m": 0.029270232018401576
+        },
+        "touch": {
+          "success_rate": 0.8333333333333334,
+          "n": 24,
+          "mean_final_distance_m": 0.03690577291252822
+        },
+        "grasp_lift": {
+          "success_rate": 0.9166666666666666,
+          "n": 24,
+          "mean_final_distance_m": 0.06207238168950598
+        }
+      },
+      "joint_physics": {
+        "reach": {
+          "success_rate": 0.7916666666666666,
+          "n": 24,
+          "mean_final_distance_m": 0.0534032458670394
+        },
+        "touch": {
+          "success_rate": 0.8333333333333334,
+          "n": 24,
+          "mean_final_distance_m": 0.0737915269372605
+        },
+        "grasp_lift": {
+          "success_rate": 0.625,
+          "n": 24,
+          "mean_final_distance_m": 0.12681276641049388
+        }
+      },
+      "new_delay": {
+        "reach": {
+          "success_rate": 0.5,
+          "n": 24,
+          "mean_final_distance_m": 0.07443362396877884
+        },
+        "touch": {
+          "success_rate": 0.75,
+          "n": 24,
+          "mean_final_distance_m": 0.06664560468464599
+        },
+        "grasp_lift": {
+          "success_rate": 0.6666666666666666,
+          "n": 24,
+          "mean_final_distance_m": 0.12778895218152586
+        }
+      },
+      "new_dynamics": {
+        "reach": {
+          "success_rate": 1.0,
+          "n": 24,
+          "mean_final_distance_m": 0.02199775040367613
+        },
+        "touch": {
+          "success_rate": 0.7916666666666666,
+          "n": 24,
+          "mean_final_distance_m": 0.02397232924666426
+        },
+        "grasp_lift": {
+          "success_rate": 0.75,
+          "n": 24,
+          "mean_final_distance_m": 0.09900312875825114
+        }
+      },
+      "new_layout": {
+        "reach": {
+          "success_rate": 1.0,
+          "n": 24,
+          "mean_final_distance_m": 0.029916148127346987
+        },
+        "touch": {
+          "success_rate": 0.75,
+          "n": 24,
+          "mean_final_distance_m": 0.057961649847260766
+        },
+        "grasp_lift": {
+          "success_rate": 0.8333333333333334,
+          "n": 24,
+          "mean_final_distance_m": 0.07514254488627904
+        }
+      }
+    },
+    "ood_macro_success": 0.7743055555555555,
+    "n_trials": 360,
+    "goal_interface": "explicit spatial/contact goals, not language instructions"
+  },
+  "namespace": "physical-sealed-final-v1",
+  "evaluation_mode": "physics",
+  "weights_frozen": true,
+  "policy": "learned"
+}

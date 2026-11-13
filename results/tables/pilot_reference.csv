@@ -1,0 +1,3 @@
+task,controller,successes,trials,success_fraction
+lift,privileged_reference,8,8,1
+relocate,privileged_reference,7,8,0.875

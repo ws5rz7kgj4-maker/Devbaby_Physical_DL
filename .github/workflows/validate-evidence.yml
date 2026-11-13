@@ -1,0 +1,24 @@
+name: Validate evidence snapshot
+
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  evidence:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Verify archived evidence and tables
+        run: python scripts/validate_results.py
+      - name: Recompute early-study statistics
+        run: python scripts/validate_early_stats.py
+      - name: Verify package links and checksums
+        run: python scripts/validate_repository.py

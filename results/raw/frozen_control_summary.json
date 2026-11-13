@@ -1,0 +1,166 @@
+{
+  "0": {
+    "8": {
+      "ranking_n": 32,
+      "rank_correlation": 0.8630952380952381,
+      "distance_advantage_over_uniform": 0.0,
+      "action_object_mse": {
+        "actual": 0.12175629031844437,
+        "zero": 0.12175631558056921,
+        "reversed": 0.12175624840892851
+      },
+      "new_persistence_object_mse": 0.007303027105056259,
+      "existing_object_mse": 0.12086667269468307,
+      "existing_persistence_object_mse": 0.006170376793306787
+    },
+    "32": {
+      "ranking_n": 32,
+      "rank_correlation": 0.6904761904761906,
+      "distance_advantage_over_uniform": 0.004836897165227293,
+      "action_object_mse": {
+        "actual": 0.1179187357192859,
+        "zero": 0.11791868496220559,
+        "reversed": 0.11791868845466524
+      },
+      "new_persistence_object_mse": 0.01892676838906482,
+      "existing_object_mse": 0.1167455779776598,
+      "existing_persistence_object_mse": 0.017193615070088222
+    },
+    "64": {
+      "ranking_n": 32,
+      "rank_correlation": 0.7083333333333334,
+      "distance_advantage_over_uniform": -0.006525223005731877,
+      "action_object_mse": {
+        "actual": 0.11841804964933544,
+        "zero": 0.11841788748279214,
+        "reversed": 0.11841792415361851
+      },
+      "new_persistence_object_mse": 0.017557315586600453,
+      "existing_object_mse": 0.11492428664738934,
+      "existing_persistence_object_mse": 0.022088386439846928
+    }
+  },
+  "16384": {
+    "8": {
+      "ranking_n": 32,
+      "rank_correlation": 0.318452380952381,
+      "distance_advantage_over_uniform": 0.0,
+      "action_object_mse": {
+        "actual": 0.119907007785514,
+        "zero": 0.11874255398288369,
+        "reversed": 0.1182905453024432
+      },
+      "new_persistence_object_mse": 0.007303027105056259,
+      "existing_object_mse": 0.12032211754315843,
+      "existing_persistence_object_mse": 0.006170376793306787
+    },
+    "32": {
+      "ranking_n": 32,
+      "rank_correlation": 0.20535714285714288,
+      "distance_advantage_over_uniform": 0.006796349437441463,
+      "action_object_mse": {
+        "actual": 0.11502248665783554,
+        "zero": 0.11480223445687443,
+        "reversed": 0.1158638303168118
+      },
+      "new_persistence_object_mse": 0.01892676838906482,
+      "existing_object_mse": 0.11627023230151584,
+      "existing_persistence_object_mse": 0.017193615070088222
+    },
+    "64": {
+      "ranking_n": 32,
+      "rank_correlation": 0.125,
+      "distance_advantage_over_uniform": 0.002762584157071285,
+      "action_object_mse": {
+        "actual": 0.11425200593657792,
+        "zero": 0.11512280441820621,
+        "reversed": 0.11579922889359295
+      },
+      "new_persistence_object_mse": 0.017557315586600453,
+      "existing_object_mse": 0.1148452553510045,
+      "existing_persistence_object_mse": 0.022088386439846928
+    }
+  },
+  "32768": {
+    "8": {
+      "ranking_n": 32,
+      "rank_correlation": 0.29613095238095244,
+      "distance_advantage_over_uniform": 0.0,
+      "action_object_mse": {
+        "actual": 0.11937899561598897,
+        "zero": 0.1196514543844387,
+        "reversed": 0.11815625906456262
+      },
+      "new_persistence_object_mse": 0.007303027105056259,
+      "existing_object_mse": 0.12096681057009846,
+      "existing_persistence_object_mse": 0.006170376793306787
+    },
+    "32": {
+      "ranking_n": 32,
+      "rank_correlation": 0.18824404761904764,
+      "distance_advantage_over_uniform": 0.0062100018642176555,
+      "action_object_mse": {
+        "actual": 0.11568355886265635,
+        "zero": 0.11591090844012797,
+        "reversed": 0.11563435452990234
+      },
+      "new_persistence_object_mse": 0.01892676838906482,
+      "existing_object_mse": 0.11697518695921948,
+      "existing_persistence_object_mse": 0.017193615070088222
+    },
+    "64": {
+      "ranking_n": 32,
+      "rank_correlation": 0.09151785714285715,
+      "distance_advantage_over_uniform": -0.009283692367655576,
+      "action_object_mse": {
+        "actual": 0.11646905052475631,
+        "zero": 0.11626420798711479,
+        "reversed": 0.11581263528205454
+      },
+      "new_persistence_object_mse": 0.017557315586600453,
+      "existing_object_mse": 0.11543988970418771,
+      "existing_persistence_object_mse": 0.022088386439846928
+    }
+  },
+  "65536": {
+    "8": {
+      "ranking_n": 32,
+      "rank_correlation": 0.224702380952381,
+      "distance_advantage_over_uniform": 0.0,
+      "action_object_mse": {
+        "actual": 0.11897177912760526,
+        "zero": 0.11840027186553925,
+        "reversed": 0.11922077054623514
+      },
+      "new_persistence_object_mse": 0.007303027105056259,
+      "existing_object_mse": 0.11979989959703137,
+      "existing_persistence_object_mse": 0.006170376793306787
+    },
+    "32": {
+      "ranking_n": 32,
+      "rank_correlation": 0.240327380952381,
+      "distance_advantage_over_uniform": 0.0028020791137093612,
+      "action_object_mse": {
+        "actual": 0.11488690681289881,
+        "zero": 0.11484167736489326,
+        "reversed": 0.11523478757590055
+      },
+      "new_persistence_object_mse": 0.01892676838906482,
+      "existing_object_mse": 0.11575451095898946,
+      "existing_persistence_object_mse": 0.017193615070088222
+    },
+    "64": {
+      "ranking_n": 32,
+      "rank_correlation": 0.09970238095238096,
+      "distance_advantage_over_uniform": -0.007459676807899153,
+      "action_object_mse": {
+        "actual": 0.11599170870613307,
+        "zero": 0.1151877986267209,
+        "reversed": 0.1153618268435821
+      },
+      "new_persistence_object_mse": 0.017557315586600453,
+      "existing_object_mse": 0.11407550611378005,
+      "existing_persistence_object_mse": 0.022088386439846928
+    }
+  }
+}

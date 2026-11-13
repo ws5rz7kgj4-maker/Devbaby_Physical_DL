@@ -1,0 +1,52 @@
+[
+  {
+    "filename": "DevBaby_Parameter_Audit.zip",
+    "bytes": 21130,
+    "sha256": "01a252d59a073dde12c61848795350d87eb8d5eae46d2b4c3f7e3642bb597177",
+    "included": true,
+    "purpose": "historical source/evidence snapshot; not an endorsed training release"
+  },
+  {
+    "filename": "DevBaby_Baseline_Check.zip",
+    "bytes": 59568,
+    "sha256": "2053d664fe1bfc263d6fdfe82700a1b348107f2cc66d91fd8069ce0f4a1eb09a",
+    "included": true,
+    "purpose": "historical source/evidence snapshot; not an endorsed training release"
+  },
+  {
+    "filename": "DevBaby_Control_Audit.zip",
+    "bytes": 56689,
+    "sha256": "99121f1c419bd699ec46d96540e7454eb5eccfd92db22e27fabfa177be0d7f06",
+    "included": true,
+    "purpose": "historical source/evidence snapshot; not an endorsed training release"
+  },
+  {
+    "filename": "DevBaby_WorldModel_Fixed.zip",
+    "bytes": 180410,
+    "sha256": "df1bed18a0bfb47cf87fdc9d9383351b8fa6e594400da71d8dbe9445317223fd",
+    "included": true,
+    "purpose": "historical source/evidence snapshot; not an endorsed training release"
+  },
+  {
+    "filename": "DevBaby_Exploration_Pilot.zip",
+    "bytes": 52061225,
+    "sha256": "8e805da089980fd2cd49ab0a900fff195c734a153a0f9a7a2163cd2e9cecb29e",
+    "included": false,
+    "purpose": "full synthetic sensory archive; selected lightweight results included separately",
+    "verification": "local ZIP CRC integrity checked"
+  },
+  {
+    "filename": "DevBaby_Physical_Final.zip",
+    "bytes": 326919,
+    "sha256": "63735a075d4e82df5aa7b34aa0a9fd90672652440117eb09cce8eb56e4865d81",
+    "included": true,
+    "purpose": "historical early-study source; distinguish verification/smoke from completed remote evidence"
+  },
+  {
+    "filename": "DevBaby_Supplement.zip",
+    "bytes": 2789072,
+    "sha256": "3741ee4737dc9bd137621f41f7761e3ca830162fb235b4e6ad085478fc9fd9f1",
+    "included": true,
+    "purpose": "historical early-study source; distinguish verification/smoke from completed remote evidence"
+  }
+]

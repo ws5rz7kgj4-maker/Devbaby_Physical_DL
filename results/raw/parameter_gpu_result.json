@@ -1,0 +1,2267 @@
+{
+  "phase": "completed",
+  "source_revision": "e0732eba95ebd3b99996b1b8d67931ec25fe1411",
+  "data_revision": "1c3f45056650a6df9eedd7660ce036b67deb88f0",
+  "hashes": {
+    "baseline-checks/4fc555c1bed2/source.zip": "4fc555c1bed2f1c64caefcc3a204114ef68ac921af2dc3e576b20c49f78d0899",
+    "runs/worldmodel-dacc6ff327cf/checkpoints/wm-s0-full-age0.pt": "121c9d2301638ffdcb0d0bc8abe0d1cfbe621a0e81349466abe1f4480fc60b19",
+    "runs/worldmodel-dacc6ff327cf/checkpoints/wm-s0-full-age65536.pt": "7483e9614e473e68480f317ff8054654a55582d34391457baa8c119679877aae",
+    "runs/worldmodel-dacc6ff327cf/checkpoints/wm-s1-full-age0.pt": "6f9f50ee0cbe2b219ac44516b3671f1ba3b6f37027b58733d8ef27a734f3a06a",
+    "runs/worldmodel-dacc6ff327cf/checkpoints/wm-s1-full-age65536.pt": "86a82edc054e6832a741244fb27bec189f6d5ba95caec38b7047cf95ad71c3a9",
+    "audits/frozen-control-v1-ba8f8d332928/new_diagnostic_recordings.zip": "9ca548ce4eea0a4447e55280a2482fb507f6651ce0373c42a6540f32391c9c9f"
+  },
+  "checkpoints": [
+    {
+      "seed": 0,
+      "groups": {
+        "encoder": {
+          "tensor_count": 22,
+          "all_exact_equal": false,
+          "max_abs_change": 0.9275757074356079
+        },
+        "dynamics": {
+          "tensor_count": 4,
+          "all_exact_equal": true,
+          "max_abs_change": 0
+        },
+        "filter": {
+          "tensor_count": 4,
+          "all_exact_equal": true,
+          "max_abs_change": 0
+        },
+        "image_start": {
+          "tensor_count": 2,
+          "all_exact_equal": false,
+          "max_abs_change": 0.3440791741013527
+        },
+        "image_decoder": {
+          "tensor_count": 8,
+          "all_exact_equal": false,
+          "max_abs_change": 0.44842905923724174
+        },
+        "body_decoder": {
+          "tensor_count": 4,
+          "all_exact_equal": false,
+          "max_abs_change": 0.4031030796468258
+        }
+      },
+      "parameters": [
+        {
+          "name": "encoder.image.net.0.weight",
+          "shape": [
+            24,
+            6,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.0.bias",
+          "shape": [
+            24
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.2.weight",
+          "shape": [
+            48,
+            24,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.2.bias",
+          "shape": [
+            48
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.4.weight",
+          "shape": [
+            64,
+            48,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.4.bias",
+          "shape": [
+            64
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.6.weight",
+          "shape": [
+            96,
+            64,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.6.bias",
+          "shape": [
+            96
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.9.weight",
+          "shape": [
+            192,
+            1536
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.9.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.10.weight",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.9275757074356079,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.009323096764124099
+        },
+        {
+          "name": "encoder.image.net.10.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.23961301147937775,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.009339991156718748
+        },
+        {
+          "name": "encoder.audio.0.weight",
+          "shape": [
+            12,
+            1,
+            3,
+            3
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.0.bias",
+          "shape": [
+            12
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.2.weight",
+          "shape": [
+            24,
+            12,
+            3,
+            3
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.2.bias",
+          "shape": [
+            24
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.5.weight",
+          "shape": [
+            48,
+            768
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.5.bias",
+          "shape": [
+            48
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.fuse.0.weight",
+          "shape": [
+            192,
+            250
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.fuse.0.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.fuse.1.weight",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.7941815853118896,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.011084930226709507
+        },
+        {
+          "name": "encoder.fuse.1.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.3192702829837799,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.007017803632918289
+        },
+        {
+          "name": "dynamics.weight_ih",
+          "shape": [
+            576,
+            5
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "dynamics.weight_hh",
+          "shape": [
+            576,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "dynamics.bias_ih",
+          "shape": [
+            576
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "dynamics.bias_hh",
+          "shape": [
+            576
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "filter.weight_ih",
+          "shape": [
+            576,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "filter.weight_hh",
+          "shape": [
+            576,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "filter.bias_ih",
+          "shape": [
+            576
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "filter.bias_hh",
+          "shape": [
+            576
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "image_start.weight",
+          "shape": [
+            1536,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.3440791741013527,
+          "changed_elements": 294912,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0041767043887619365
+        },
+        {
+          "name": "image_start.bias",
+          "shape": [
+            1536
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.13825803436338902,
+          "changed_elements": 1536,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.00410916358536151
+        },
+        {
+          "name": "image_decoder.0.weight",
+          "shape": [
+            96,
+            64,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.2822734899818897,
+          "changed_elements": 98304,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.001030098531019014
+        },
+        {
+          "name": "image_decoder.0.bias",
+          "shape": [
+            64
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.06088247522711754,
+          "changed_elements": 64,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0021359098778090967
+        },
+        {
+          "name": "image_decoder.2.weight",
+          "shape": [
+            64,
+            48,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.44842905923724174,
+          "changed_elements": 49152,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.00096108124886593
+        },
+        {
+          "name": "image_decoder.2.bias",
+          "shape": [
+            48
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.07431977987289429,
+          "changed_elements": 48,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0008803263256329132
+        },
+        {
+          "name": "image_decoder.4.weight",
+          "shape": [
+            48,
+            24,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.38260990381240845,
+          "changed_elements": 18432,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0007539775416111373
+        },
+        {
+          "name": "image_decoder.4.bias",
+          "shape": [
+            24
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.06376416236162186,
+          "changed_elements": 24,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.001026601174150805
+        },
+        {
+          "name": "image_decoder.6.weight",
+          "shape": [
+            24,
+            6,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.26744434237480164,
+          "changed_elements": 2304,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0006478004718406352
+        },
+        {
+          "name": "image_decoder.6.bias",
+          "shape": [
+            6
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.08188275760039687,
+          "changed_elements": 6,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0017000989732976477
+        },
+        {
+          "name": "body_decoder.0.weight",
+          "shape": [
+            192,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.4031030796468258,
+          "changed_elements": 36864,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.009427672835998588
+        },
+        {
+          "name": "body_decoder.0.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.04815398529171944,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.003240744486993206
+        },
+        {
+          "name": "body_decoder.2.weight",
+          "shape": [
+            10,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.21344037353992462,
+          "changed_elements": 1920,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.016580321447004265
+        },
+        {
+          "name": "body_decoder.2.bias",
+          "shape": [
+            10
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.024544674903154373,
+          "changed_elements": 10,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.004341687305620093
+        }
+      ]
+    },
+    {
+      "seed": 1,
+      "groups": {
+        "encoder": {
+          "tensor_count": 22,
+          "all_exact_equal": false,
+          "max_abs_change": 0.6376615762710571
+        },
+        "dynamics": {
+          "tensor_count": 4,
+          "all_exact_equal": true,
+          "max_abs_change": 0
+        },
+        "filter": {
+          "tensor_count": 4,
+          "all_exact_equal": true,
+          "max_abs_change": 0
+        },
+        "image_start": {
+          "tensor_count": 2,
+          "all_exact_equal": false,
+          "max_abs_change": 0.3588595745386556
+        },
+        "image_decoder": {
+          "tensor_count": 8,
+          "all_exact_equal": false,
+          "max_abs_change": 0.45654327352531254
+        },
+        "body_decoder": {
+          "tensor_count": 4,
+          "all_exact_equal": false,
+          "max_abs_change": 0.4974007308483124
+        }
+      },
+      "parameters": [
+        {
+          "name": "encoder.image.net.0.weight",
+          "shape": [
+            24,
+            6,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.0.bias",
+          "shape": [
+            24
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.2.weight",
+          "shape": [
+            48,
+            24,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.2.bias",
+          "shape": [
+            48
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.4.weight",
+          "shape": [
+            64,
+            48,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.4.bias",
+          "shape": [
+            64
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.6.weight",
+          "shape": [
+            96,
+            64,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.6.bias",
+          "shape": [
+            96
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.9.weight",
+          "shape": [
+            192,
+            1536
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.9.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.image.net.10.weight",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.6236674785614014,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0029271287461513653
+        },
+        {
+          "name": "encoder.image.net.10.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.2157639116048813,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.003100430697071691
+        },
+        {
+          "name": "encoder.audio.0.weight",
+          "shape": [
+            12,
+            1,
+            3,
+            3
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.0.bias",
+          "shape": [
+            12
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.2.weight",
+          "shape": [
+            24,
+            12,
+            3,
+            3
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.2.bias",
+          "shape": [
+            24
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.5.weight",
+          "shape": [
+            48,
+            768
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.audio.5.bias",
+          "shape": [
+            48
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.fuse.0.weight",
+          "shape": [
+            192,
+            250
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.fuse.0.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "encoder.fuse.1.weight",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.6376615762710571,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0030643457090097142
+        },
+        {
+          "name": "encoder.fuse.1.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.28563225269317627,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.002629028577592518
+        },
+        {
+          "name": "dynamics.weight_ih",
+          "shape": [
+            576,
+            5
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "dynamics.weight_hh",
+          "shape": [
+            576,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "dynamics.bias_ih",
+          "shape": [
+            576
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "dynamics.bias_hh",
+          "shape": [
+            576
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "filter.weight_ih",
+          "shape": [
+            576,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "filter.weight_hh",
+          "shape": [
+            576,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "filter.bias_ih",
+          "shape": [
+            576
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "filter.bias_hh",
+          "shape": [
+            576
+          ],
+          "requires_grad": true,
+          "exact_equal": true,
+          "max_abs_change": 0,
+          "changed_elements": 0,
+          "old_optimizer_has_state": false,
+          "old_optimizer_step": null,
+          "old_exp_avg_norm": null
+        },
+        {
+          "name": "image_start.weight",
+          "shape": [
+            1536,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.3588595745386556,
+          "changed_elements": 294912,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.001791688337217414
+        },
+        {
+          "name": "image_start.bias",
+          "shape": [
+            1536
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.16144128888845444,
+          "changed_elements": 1536,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0017751748065641993
+        },
+        {
+          "name": "image_decoder.0.weight",
+          "shape": [
+            96,
+            64,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.26711133122444153,
+          "changed_elements": 98304,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0003893799086242349
+        },
+        {
+          "name": "image_decoder.0.bias",
+          "shape": [
+            64
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.052943155169487,
+          "changed_elements": 64,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0007758675595607846
+        },
+        {
+          "name": "image_decoder.2.weight",
+          "shape": [
+            64,
+            48,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.45654327352531254,
+          "changed_elements": 49152,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0002662749286258297
+        },
+        {
+          "name": "image_decoder.2.bias",
+          "shape": [
+            48
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.04529032111167908,
+          "changed_elements": 48,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0002712465375329239
+        },
+        {
+          "name": "image_decoder.4.weight",
+          "shape": [
+            48,
+            24,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.31435646302998066,
+          "changed_elements": 18432,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0002446751846633554
+        },
+        {
+          "name": "image_decoder.4.bias",
+          "shape": [
+            24
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.05581126548349857,
+          "changed_elements": 24,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0002595761442161595
+        },
+        {
+          "name": "image_decoder.6.weight",
+          "shape": [
+            24,
+            6,
+            4,
+            4
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.2376953698694706,
+          "changed_elements": 2304,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.00030124263068986406
+        },
+        {
+          "name": "image_decoder.6.bias",
+          "shape": [
+            6
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.06788907386362553,
+          "changed_elements": 6,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.0005142187996692301
+        },
+        {
+          "name": "body_decoder.0.weight",
+          "shape": [
+            192,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.4974007308483124,
+          "changed_elements": 36864,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.006247788933667416
+        },
+        {
+          "name": "body_decoder.0.bias",
+          "shape": [
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.04182450473308563,
+          "changed_elements": 192,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.002455457514864414
+        },
+        {
+          "name": "body_decoder.2.weight",
+          "shape": [
+            10,
+            192
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.23212524130940437,
+          "changed_elements": 1920,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.012614459475418649
+        },
+        {
+          "name": "body_decoder.2.bias",
+          "shape": [
+            10
+          ],
+          "requires_grad": true,
+          "exact_equal": false,
+          "max_abs_change": 0.022640876471996307,
+          "changed_elements": 10,
+          "old_optimizer_has_state": true,
+          "old_optimizer_step": 4096,
+          "old_exp_avg_norm": 0.004017863969003947
+        }
+      ]
+    }
+  ],
+  "path_checks": [
+    {
+      "mode": "fp32",
+      "seed": 1,
+      "initial_age": 0,
+      "loss": 0.3374755382537842,
+      "parameters": [
+        {
+          "name": "encoder.image.net.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.017180611987082584,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "encoder.image.net.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.0033802927880223236,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "encoder.image.net.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.03541632867245929,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999855905771255
+        },
+        {
+          "name": "encoder.image.net.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.011132511128236905,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "encoder.image.net.4.weight",
+          "grad_present": true,
+          "grad_norm": 0.04990490066858577,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999855905771255
+        },
+        {
+          "name": "encoder.image.net.4.bias",
+          "grad_present": true,
+          "grad_norm": 0.037849804314237435,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "encoder.image.net.6.weight",
+          "grad_present": true,
+          "grad_norm": 0.05762031055671543,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999809339642525
+        },
+        {
+          "name": "encoder.image.net.6.bias",
+          "grad_present": true,
+          "grad_norm": 0.11197272575723193,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002999999560415745
+        },
+        {
+          "name": "encoder.image.net.9.weight",
+          "grad_present": true,
+          "grad_norm": 0.17580220130351068,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "encoder.image.net.9.bias",
+          "grad_present": true,
+          "grad_norm": 0.4530120752410618,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000004217028618
+        },
+        {
+          "name": "encoder.image.net.10.weight",
+          "grad_present": true,
+          "grad_norm": 0.00793183659010087,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000497817993164
+        },
+        {
+          "name": "encoder.image.net.10.bias",
+          "grad_present": true,
+          "grad_norm": 0.007152424406064664,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999844264239073
+        },
+        {
+          "name": "encoder.audio.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.00007093380735447373,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029981881380081177
+        },
+        {
+          "name": "encoder.audio.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.0002661316717178035,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029997527599334717
+        },
+        {
+          "name": "encoder.audio.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.000877648352067555,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029996223747730255
+        },
+        {
+          "name": "encoder.audio.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.0008617698868423856,
+          "grad_finite": true,
+          "step_max_abs_change": 0.000299990177154541
+        },
+        {
+          "name": "encoder.audio.5.weight",
+          "grad_present": true,
+          "grad_norm": 0.0030921393423682954,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029996782541275024
+        },
+        {
+          "name": "encoder.audio.5.bias",
+          "grad_present": true,
+          "grad_norm": 0.0031645238497070034,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "encoder.fuse.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.19079668732730645,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "encoder.fuse.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.014024013492718115,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "encoder.fuse.1.weight",
+          "grad_present": true,
+          "grad_norm": 0.009327367254486683,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000497817993164
+        },
+        {
+          "name": "encoder.fuse.1.bias",
+          "grad_present": true,
+          "grad_norm": 0.007450611653750889,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002999986463692039
+        },
+        {
+          "name": "dynamics.weight_ih",
+          "grad_present": true,
+          "grad_norm": 0.02741620679420058,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "dynamics.weight_hh",
+          "grad_present": true,
+          "grad_norm": 0.04533319610769907,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999809339642525
+        },
+        {
+          "name": "dynamics.bias_ih",
+          "grad_present": true,
+          "grad_norm": 0.0430819908921983,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "dynamics.bias_hh",
+          "grad_present": true,
+          "grad_norm": 0.021948299372712816,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "filter.weight_ih",
+          "grad_present": true,
+          "grad_norm": 0.17867166406078772,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "filter.weight_hh",
+          "grad_present": true,
+          "grad_norm": 0.019083841183917954,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "filter.bias_ih",
+          "grad_present": true,
+          "grad_norm": 0.02178449806973035,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "filter.bias_hh",
+          "grad_present": true,
+          "grad_norm": 0.01125071476022601,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999809339642525
+        },
+        {
+          "name": "image_start.weight",
+          "grad_present": true,
+          "grad_norm": 0.00000431537451378651,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00027470430359244347
+        },
+        {
+          "name": "image_start.bias",
+          "grad_present": true,
+          "grad_norm": 0.000002497325887692795,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029181549325585365
+        },
+        {
+          "name": "image_decoder.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.00001170190614049238,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00028996262699365616
+        },
+        {
+          "name": "image_decoder.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.000020487155387280055,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002993755042552948
+        },
+        {
+          "name": "image_decoder.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.0000204483211511743,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029474031180143356
+        },
+        {
+          "name": "image_decoder.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.0002616270406800714,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029996782541275024
+        },
+        {
+          "name": "image_decoder.4.weight",
+          "grad_present": true,
+          "grad_norm": 0.00018786781669820855,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002995692193508148
+        },
+        {
+          "name": "image_decoder.4.bias",
+          "grad_present": true,
+          "grad_norm": 0.0026723542832882896,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "image_decoder.6.weight",
+          "grad_present": true,
+          "grad_norm": 0.0012002557483086573,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002999603748321533
+        },
+        {
+          "name": "image_decoder.6.bias",
+          "grad_present": true,
+          "grad_norm": 0.016407576579140982,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "body_decoder.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.2165128151164304,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.1244569690543282,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.23425500479662473,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.4273116531582325,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        }
+      ]
+    },
+    {
+      "mode": "amp_cache_on",
+      "seed": 1,
+      "initial_age": 0,
+      "loss": 0.3374621272087097,
+      "parameters": [
+        {
+          "name": "encoder.image.net.0.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.0.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.2.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.2.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.4.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.4.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.6.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.6.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.9.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.9.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.image.net.10.weight",
+          "grad_present": true,
+          "grad_norm": 0.007930973952262355,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000497817993164
+        },
+        {
+          "name": "encoder.image.net.10.bias",
+          "grad_present": true,
+          "grad_norm": 0.007151451606262442,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002999984717462212
+        },
+        {
+          "name": "encoder.audio.0.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.audio.0.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.audio.2.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.audio.2.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.audio.5.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.audio.5.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.fuse.0.weight",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.fuse.0.bias",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "encoder.fuse.1.weight",
+          "grad_present": true,
+          "grad_norm": 0.009325719582004404,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000497817993164
+        },
+        {
+          "name": "encoder.fuse.1.bias",
+          "grad_present": true,
+          "grad_norm": 0.007449750998876709,
+          "grad_finite": true,
+          "step_max_abs_change": 0.000299998588161543
+        },
+        {
+          "name": "dynamics.weight_ih",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "dynamics.weight_hh",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "dynamics.bias_ih",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "dynamics.bias_hh",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "filter.weight_ih",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "filter.weight_hh",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "filter.bias_ih",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "filter.bias_hh",
+          "grad_present": false,
+          "grad_norm": null,
+          "grad_finite": null,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "image_start.weight",
+          "grad_present": true,
+          "grad_norm": 0,
+          "grad_finite": true,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "image_start.bias",
+          "grad_present": true,
+          "grad_norm": 0,
+          "grad_finite": true,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "image_decoder.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.00000427286737394876,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029800087213516235
+        },
+        {
+          "name": "image_decoder.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.000015944437444689174,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002995552495121956
+        },
+        {
+          "name": "image_decoder.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.000016630229975556676,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002986826002597809
+        },
+        {
+          "name": "image_decoder.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.0005079106134481868,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002999883145093918
+        },
+        {
+          "name": "image_decoder.4.weight",
+          "grad_present": true,
+          "grad_norm": 0.00022527493288922453,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029961951076984406
+        },
+        {
+          "name": "image_decoder.4.bias",
+          "grad_present": true,
+          "grad_norm": 0.003051866528504295,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "image_decoder.6.weight",
+          "grad_present": true,
+          "grad_norm": 0.0012726392974795333,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029996782541275024
+        },
+        {
+          "name": "image_decoder.6.bias",
+          "grad_present": true,
+          "grad_norm": 0.017120118923562116,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "body_decoder.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.21648388065580662,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.12444760789885305,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.23423606030150607,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.42691727709809946,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        }
+      ]
+    },
+    {
+      "mode": "amp_cache_off",
+      "seed": 1,
+      "initial_age": 0,
+      "loss": 0.3374621272087097,
+      "parameters": [
+        {
+          "name": "encoder.image.net.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.01717701977789523,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "encoder.image.net.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.003378862479863614,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "encoder.image.net.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.03540888866920434,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999855905771255
+        },
+        {
+          "name": "encoder.image.net.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.011131527449952728,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "encoder.image.net.4.weight",
+          "grad_present": true,
+          "grad_norm": 0.049895735601201086,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999855905771255
+        },
+        {
+          "name": "encoder.image.net.4.bias",
+          "grad_present": true,
+          "grad_norm": 0.03784390805350385,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "encoder.image.net.6.weight",
+          "grad_present": true,
+          "grad_norm": 0.05761071993627152,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999809339642525
+        },
+        {
+          "name": "encoder.image.net.6.bias",
+          "grad_present": true,
+          "grad_norm": 0.11195493552144033,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002999999560415745
+        },
+        {
+          "name": "encoder.image.net.9.weight",
+          "grad_present": true,
+          "grad_norm": 0.1757753527674751,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "encoder.image.net.9.bias",
+          "grad_present": true,
+          "grad_norm": 0.45294264188394645,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000004217028618
+        },
+        {
+          "name": "encoder.image.net.10.weight",
+          "grad_present": true,
+          "grad_norm": 0.007930973952262355,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000497817993164
+        },
+        {
+          "name": "encoder.image.net.10.bias",
+          "grad_present": true,
+          "grad_norm": 0.007151451606262442,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002999984717462212
+        },
+        {
+          "name": "encoder.audio.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.00007182406686494573,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029981881380081177
+        },
+        {
+          "name": "encoder.audio.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.00026620819668185855,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029997527599334717
+        },
+        {
+          "name": "encoder.audio.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.0008777243807780308,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029996223747730255
+        },
+        {
+          "name": "encoder.audio.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.0008621938265590277,
+          "grad_finite": true,
+          "step_max_abs_change": 0.000299990177154541
+        },
+        {
+          "name": "encoder.audio.5.weight",
+          "grad_present": true,
+          "grad_norm": 0.0030924700733461845,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029996782541275024
+        },
+        {
+          "name": "encoder.audio.5.bias",
+          "grad_present": true,
+          "grad_norm": 0.0031648578587502815,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "encoder.fuse.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.19077444551125405,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "encoder.fuse.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.014022075477754971,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "encoder.fuse.1.weight",
+          "grad_present": true,
+          "grad_norm": 0.009325719582004404,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000497817993164
+        },
+        {
+          "name": "encoder.fuse.1.bias",
+          "grad_present": true,
+          "grad_norm": 0.007449750998876709,
+          "grad_finite": true,
+          "step_max_abs_change": 0.000299998588161543
+        },
+        {
+          "name": "dynamics.weight_ih",
+          "grad_present": true,
+          "grad_norm": 0.027415886770917903,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "dynamics.weight_hh",
+          "grad_present": true,
+          "grad_norm": 0.0453224475252421,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999809339642525
+        },
+        {
+          "name": "dynamics.bias_ih",
+          "grad_present": true,
+          "grad_norm": 0.043074474167926605,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "dynamics.bias_hh",
+          "grad_present": true,
+          "grad_norm": 0.021944182111691593,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "filter.weight_ih",
+          "grad_present": true,
+          "grad_norm": 0.17864257027185376,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "filter.weight_hh",
+          "grad_present": true,
+          "grad_norm": 0.01908077549530969,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "filter.bias_ih",
+          "grad_present": true,
+          "grad_norm": 0.021781571268270055,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "filter.bias_hh",
+          "grad_present": true,
+          "grad_norm": 0.011249383985224235,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999809339642525
+        },
+        {
+          "name": "image_start.weight",
+          "grad_present": true,
+          "grad_norm": 0,
+          "grad_finite": true,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "image_start.bias",
+          "grad_present": true,
+          "grad_norm": 0,
+          "grad_finite": true,
+          "step_max_abs_change": 0
+        },
+        {
+          "name": "image_decoder.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.00000427286737394876,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029800087213516235
+        },
+        {
+          "name": "image_decoder.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.000015944437444689174,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002995552495121956
+        },
+        {
+          "name": "image_decoder.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.000016630229975556676,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002986826002597809
+        },
+        {
+          "name": "image_decoder.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.0005081069429443343,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0002999883145093918
+        },
+        {
+          "name": "image_decoder.4.weight",
+          "grad_present": true,
+          "grad_norm": 0.00022527493288922453,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029961951076984406
+        },
+        {
+          "name": "image_decoder.4.bias",
+          "grad_present": true,
+          "grad_norm": 0.0030545182718909247,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999762773513794
+        },
+        {
+          "name": "image_decoder.6.weight",
+          "grad_present": true,
+          "grad_norm": 0.0012726392974795333,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029996782541275024
+        },
+        {
+          "name": "image_decoder.6.bias",
+          "grad_present": true,
+          "grad_norm": 0.017094136803054473,
+          "grad_finite": true,
+          "step_max_abs_change": 0.00029999949038028717
+        },
+        {
+          "name": "body_decoder.0.weight",
+          "grad_present": true,
+          "grad_norm": 0.21648440913582453,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.0.bias",
+          "grad_present": true,
+          "grad_norm": 0.1244447276728991,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.2.weight",
+          "grad_present": true,
+          "grad_norm": 0.2342359658318779,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        },
+        {
+          "name": "body_decoder.2.bias",
+          "grad_present": true,
+          "grad_norm": 0.4272771566565607,
+          "grad_finite": true,
+          "step_max_abs_change": 0.0003000013530254364
+        }
+      ]
+    }
+  ],
+  "torch_version": "2.6.0+cu124",
+  "device": "cuda",
+  "note": "Matched GPU FP32 and FP16 cache on/off with identical weights and data; no GradScaler in this minimal reproduction.",
+  "model_source": "class WorldModel(nn.Module):\n    def __init__(self,cfg):\n        super().__init__();self.cfg=cfg;self.encoder=ObservationEncoder(cfg)\n        self.dynamics=nn.GRUCell(5,cfg.hidden);self.filter=nn.GRUCell(cfg.hidden,cfg.hidden)\n        self.image_start=nn.Linear(cfg.hidden,96*4*4)\n        self.image_decoder=nn.Sequential(nn.ConvTranspose2d(96,64,4,2,1),nn.SiLU(),\n            nn.ConvTranspose2d(64,48,4,2,1),nn.SiLU(),nn.ConvTranspose2d(48,24,4,2,1),nn.SiLU(),\n            nn.ConvTranspose2d(24,6,4,2,1),nn.Sigmoid())\n        self.body_decoder=nn.Sequential(nn.Linear(cfg.hidden,cfg.hidden),nn.SiLU(),nn.Linear(cfg.hidden,10))\n    def initial(self,batch,device):return torch.zeros(batch,self.cfg.hidden,device=device)\n    def prior(self,h,action):return self.dynamics(action,h)\n    def observe(self,h,rgb,audio,proprio):return self.filter(self.encoder(rgb,audio,proprio),h)\n    def decode(self,h):return self.image_decoder(self.image_start(h).reshape(-1,96,4,4)),self.body_decoder(h)\n    def forward(self,b):\n        B,T=b['rgb'].shape[:2];h=self.initial(B,b['rgb'].device);states=[]\n        for t in range(T):\n            if t:h=self.prior(h,b['actions'][:,t-1])\n            h=self.observe(h,b['rgb'][:,t],b['audio'][:,t],b['proprio'][:,t]);states.append(h)\n        return torch.stack(states,1)\n    def loss(self,b):\n        cfg=self.cfg;B,T=b['rgb'].shape[:2];h=self.initial(B,b['rgb'].device)\n        # Burn-in reconstructs belief using only past observations, without backprop.\n        with torch.no_grad():\n            for t in range(cfg.burn_in):\n                if t:h=self.prior(h,b['actions'][:,t-1])\n                h=self.observe(h,b['rgb'][:,t],b['audio'][:,t],b['proprio'][:,t])\n        anchor=None;rec=[];one=[];latent=[]\n        for t in range(cfg.burn_in,cfg.burn_in+cfg.train_steps):\n            h=self.prior(h,b['actions'][:,t-1]);prior=h\n            h=self.observe(h,b['rgb'][:,t],b['audio'][:,t],b['proprio'][:,t]);latent.append(h)\n            if anchor is None:anchor=h\n            rgb,body=self.decode(h)\n            rec.append(F.mse_loss(rgb,b['rgb'][:,t])+F.mse_loss(body,b['proprio'][:,t]))\n            rgb,body=self.decode(prior)\n            motion=1+10*(b['rgb'][:,t]-b['rgb'][:,t-1]).abs().mean(1,keepdim=True)\n            one.append(((rgb-b['rgb'][:,t]).square()*motion).mean()+F.mse_loss(body,b['proprio'][:,t]))\n        # Open-loop multistep prediction, at geometrically spaced horizons.\n        h=anchor;multi=[];start=cfg.burn_in\n        horizons=set([1,2,4,8,16,32,cfg.unroll])\n        for k in range(1,cfg.unroll+1):\n            h=self.prior(h,b['actions'][:,start+k-1])\n            if k in horizons:\n                rgb,body=self.decode(h);target=b['rgb'][:,start+k]\n                motion=1+10*(target-b['rgb'][:,start]).abs().mean(1,keepdim=True)\n                multi.append(((rgb-target).square()*motion).mean()+F.mse_loss(body,b['proprio'][:,start+k]))\n        r=torch.stack(rec).mean();o=torch.stack(one).mean();m=torch.stack(multi).mean()\n        # Small anti-collapse penalty on the randomly initialized latent representation.\n        spread=F.relu(.1-torch.stack(latent,1).flatten(0,1).std(0,unbiased=False)).mean()\n        return r+o+m+.01*spread,dict(reconstruction=r.detach(),one_step=o.detach(),multi_step=m.detach())\n"
+}

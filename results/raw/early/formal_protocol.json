@@ -1,0 +1,94 @@
+{
+  "protocol": {
+    "version": "DevBaby-physical-v1",
+    "development_only": false,
+    "training_config": "configs/formal.json",
+    "seeds": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7
+    ],
+    "variants": {
+      "full": {},
+      "no_action": {
+        "ablation": "no_action"
+      }
+    },
+    "final_namespace": "physical-sealed-final-v1",
+    "final_trials_per_task_domain": 24,
+    "adaptation_domains": [
+      "new_dynamics",
+      "new_delay"
+    ],
+    "adaptation_budgets": [
+      0,
+      128,
+      512,
+      2048
+    ],
+    "adaptation_checkpoint_blocks": [
+      0,
+      8,
+      16
+    ],
+    "adaptation_updates_per_episode": 16,
+    "adaptation_trials_per_task_domain": 6,
+    "adaptation_namespace": "physical-adaptation-test-v1",
+    "job_seconds": 82800,
+    "primary_family": [
+      "final_full_minus_initial_ood_success",
+      "final_full_minus_no_action_ood_success",
+      "adaptation_final_minus_initial_gain_auc"
+    ],
+    "statistics": "Paired training-seed differences; two-sided exact sign-flip tests, Holm correction across the three primary contrasts; bootstrap paired-seed CIs. Scene sampling uncertainty is not included in seed-only intervals.",
+    "stopping": "Fixed interaction/update budgets. Only infrastructure/time limits may interrupt; no performance-based stopping or checkpoint selection.",
+    "success": "Reach within 8 cm for final three steps; touch physical contact for any three consecutive steps; grasp-lift held target at least 14 cm above initial center and hand within 13 cm of lift goal for final three steps.",
+    "interpretation": "Spatial/contact goals and a CEM task cost are supplied. Language is part of experience, not the primary score. No general intelligence, language instruction-following or consciousness claim. Eight seeds do not constitute a prospective power analysis."
+  },
+  "training_config": {
+    "seed": 0,
+    "image_size": 64,
+    "control_hz": 8,
+    "physics_hz": 120,
+    "sample_rate": 16000,
+    "episode_steps": 64,
+    "objects_min": 1,
+    "objects_max": 3,
+    "correspondence": 1.0,
+    "caregiver_delay_steps": 0,
+    "exploration": "random",
+    "ablation": "none",
+    "hidden": 128,
+    "batch_size": 16,
+    "clip_steps": 16,
+    "learning_rate": 0.0003,
+    "blocks": 16,
+    "episodes_per_block": 32,
+    "updates_per_block": 512,
+    "eval_per_condition": 48,
+    "eval_namespace": "physical-development-v1",
+    "eval_interval_blocks": 4,
+    "evaluation_mode": "physics",
+    "motor_domain_randomization": true,
+    "physics_trials": 6,
+    "physics_steps": 40,
+    "planner_horizon": 8,
+    "planner_candidates": 48,
+    "planner_iterations": 2,
+    "eval_dynamics_episodes": 4,
+    "motor_trials": 8,
+    "motor_steps": 24,
+    "replay_episodes": 512,
+    "probe_examples": 160,
+    "threads": 4,
+    "max_seconds": 82800,
+    "save_video": true
+  },
+  "source_archive": "source/eef2ff40383ff64a46d1a0bc186a3829fc6502ce09700d5e7120e53ae65d8840.zip",
+  "sha256": "6d7277597bf82f318cb8db9b111cdc2c5af3962135f3ea7c940dbbfdc66b5976"
+}

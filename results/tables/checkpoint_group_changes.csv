@@ -1,0 +1,13 @@
+seed,group,parameter_tensors,exactly_unchanged,changed,with_optimizer_state,max_abs_change
+0,encoder,22,18,4,4,0.9275757074356079
+0,dynamics,4,4,0,0,0
+0,filter,4,4,0,0,0
+0,image_start,2,0,2,2,0.3440791741013527
+0,image_decoder,8,0,8,8,0.44842905923724174
+0,body_decoder,4,0,4,4,0.4031030796468258
+1,encoder,22,18,4,4,0.6376615762710571
+1,dynamics,4,4,0,0,0
+1,filter,4,4,0,0,0
+1,image_start,2,0,2,2,0.3588595745386556
+1,image_decoder,8,0,8,8,0.45654327352531254
+1,body_decoder,4,0,4,4,0.4974007308483124

@@ -1,0 +1,926 @@
+{
+  "n_seeds": 8,
+  "table": {
+    "h16_s0.0": {
+      "contact_fraction": {
+        "mean": 0.0107421875,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0283203125
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.01171875,
+        "seed_bootstrap_95": [
+          0.0,
+          0.03125
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.0390625,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0927734375
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.004518761184849771,
+        "seed_bootstrap_95": [
+          0.0,
+          0.013093682000572794
+        ]
+      },
+      "action_rms": {
+        "mean": 0.5136919803917408,
+        "seed_bootstrap_95": [
+          0.4693622477352619,
+          0.5604123150929808
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.26827942952513695,
+        "seed_bootstrap_95": [
+          0.24743517963215708,
+          0.2909553821198642
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.224609375,
+        "seed_bootstrap_95": [
+          0.1865234375,
+          0.265625
+        ]
+      }
+    },
+    "h16_s0.12": {
+      "contact_fraction": {
+        "mean": 0.0068359375,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0185546875
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.0078125,
+        "seed_bootstrap_95": [
+          0.0,
+          0.01953125
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.0390625,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0927734375
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.00233862632614093,
+        "seed_bootstrap_95": [
+          0.0,
+          0.006363590136998477
+        ]
+      },
+      "action_rms": {
+        "mean": 0.5276034399867058,
+        "seed_bootstrap_95": [
+          0.4841274404898286,
+          0.5728033743798733
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.32104605436325073,
+        "seed_bootstrap_95": [
+          0.307595189101994,
+          0.3354252353310585
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.2265625,
+        "seed_bootstrap_95": [
+          0.18912760416666669,
+          0.267578125
+        ]
+      }
+    },
+    "h16_s0.5": {
+      "contact_fraction": {
+        "mean": 0.037109375,
+        "seed_bootstrap_95": [
+          0.005859375,
+          0.078125
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.75,
+        "seed_bootstrap_95": [
+          0.125,
+          1.5
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.625,
+        "seed_bootstrap_95": [
+          0.125,
+          1.125
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.037109375,
+        "seed_bootstrap_95": [
+          0.0038818359375000083,
+          0.078125
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.1005859375,
+        "seed_bootstrap_95": [
+          0.0146484375,
+          0.2236328125
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.009854685348397514,
+        "seed_bootstrap_95": [
+          0.0004502529498616336,
+          0.023741848001863998
+        ]
+      },
+      "action_rms": {
+        "mean": 0.6830529198050499,
+        "seed_bootstrap_95": [
+          0.6513022975996137,
+          0.7148976931348443
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.7056138217449188,
+        "seed_bootstrap_95": [
+          0.6663133108988404,
+          0.7443126253783703
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.3017578125,
+        "seed_bootstrap_95": [
+          0.25911458333333337,
+          0.34602864583333337
+        ]
+      }
+    },
+    "h1_s0.0": {
+      "contact_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "action_rms": {
+        "mean": 0.897942915558815,
+        "seed_bootstrap_95": [
+          0.8899980757385493,
+          0.9057156113907695
+        ]
+      },
+      "action_change_rms": {
+        "mean": 1.2602493464946747,
+        "seed_bootstrap_95": [
+          1.2108215179294348,
+          1.3066477477550507
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.7122395833333333,
+        "seed_bootstrap_95": [
+          0.6927083333333333,
+          0.7295003255208332
+        ]
+      }
+    },
+    "h1_s0.12": {
+      "contact_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "action_rms": {
+        "mean": 0.8991473838686943,
+        "seed_bootstrap_95": [
+          0.8911474322900176,
+          0.907088995538652
+        ]
+      },
+      "action_change_rms": {
+        "mean": 1.2612665593624115,
+        "seed_bootstrap_95": [
+          1.2126248329877853,
+          1.3064083129167556
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.712890625,
+        "seed_bootstrap_95": [
+          0.6959635416666666,
+          0.7288411458333334
+        ]
+      }
+    },
+    "h1_s0.5": {
+      "contact_fraction": {
+        "mean": 0.00390625,
+        "seed_bootstrap_95": [
+          0.0,
+          0.009765625
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.125,
+        "seed_bootstrap_95": [
+          0.0,
+          0.375
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.00390625,
+        "seed_bootstrap_95": [
+          0.0,
+          0.01171875
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.029296875,
+        "seed_bootstrap_95": [
+          0.0,
+          0.087890625
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.003096180784295315,
+        "seed_bootstrap_95": [
+          0.0,
+          0.009283176507752173
+        ]
+      },
+      "action_rms": {
+        "mean": 0.8997110202908516,
+        "seed_bootstrap_95": [
+          0.8911950886249542,
+          0.9083550268784165
+        ]
+      },
+      "action_change_rms": {
+        "mean": 1.2646578252315521,
+        "seed_bootstrap_95": [
+          1.2189330466091632,
+          1.3070687152445315
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.7200520833333333,
+        "seed_bootstrap_95": [
+          0.7001953125,
+          0.740234375
+        ]
+      }
+    },
+    "h4_s0.0": {
+      "contact_fraction": {
+        "mean": 0.0048828125,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0126953125
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.375,
+        "seed_bootstrap_95": [
+          0.0,
+          0.875
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.125,
+        "seed_bootstrap_95": [
+          0.0,
+          0.375
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.013671875,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0390625
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.0615234375,
+        "seed_bootstrap_95": [
+          0.0,
+          0.1611328125
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.009515440776962923,
+        "seed_bootstrap_95": [
+          0.00012559193181927564,
+          0.027973547137939835
+        ]
+      },
+      "action_rms": {
+        "mean": 0.8060092255473137,
+        "seed_bootstrap_95": [
+          0.7734471747651697,
+          0.8380009084939957
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.6296385228633881,
+        "seed_bootstrap_95": [
+          0.6099870253354311,
+          0.6465311350300909
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.5667317708333334,
+        "seed_bootstrap_95": [
+          0.5162760416666667,
+          0.6184895833333334
+        ]
+      }
+    },
+    "h4_s0.12": {
+      "contact_fraction": {
+        "mean": 0.013671875,
+        "seed_bootstrap_95": [
+          0.0009765625,
+          0.03125
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.625,
+        "seed_bootstrap_95": [
+          0.125,
+          1.25
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.375,
+        "seed_bootstrap_95": [
+          0.125,
+          0.75
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.5
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.0224609375,
+        "seed_bootstrap_95": [
+          0.0,
+          0.046875
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.1083984375,
+        "seed_bootstrap_95": [
+          0.0,
+          0.234375
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.02496158605675676,
+        "seed_bootstrap_95": [
+          3.8660504884181257e-08,
+          0.05901144759047784
+        ]
+      },
+      "action_rms": {
+        "mean": 0.8097851350903511,
+        "seed_bootstrap_95": [
+          0.7789006510749459,
+          0.8400873402133584
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.6402641385793686,
+        "seed_bootstrap_95": [
+          0.6250174764543772,
+          0.6544987233355641
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.5696614583333333,
+        "seed_bootstrap_95": [
+          0.5218098958333334,
+          0.6188232421875
+        ]
+      }
+    },
+    "h4_s0.5": {
+      "contact_fraction": {
+        "mean": 0.0146484375,
+        "seed_bootstrap_95": [
+          0.0009765625,
+          0.0322265625
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.5,
+        "seed_bootstrap_95": [
+          0.125,
+          1.0
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.375,
+        "seed_bootstrap_95": [
+          0.125,
+          0.75
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.5
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.0244140625,
+        "seed_bootstrap_95": [
+          0.0,
+          0.05078125
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.107421875,
+        "seed_bootstrap_95": [
+          0.0,
+          0.23046875
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.026985360167979016,
+        "seed_bootstrap_95": [
+          2.794114894289958e-09,
+          0.06476038050062413
+        ]
+      },
+      "action_rms": {
+        "mean": 0.8449755534529686,
+        "seed_bootstrap_95": [
+          0.8230079710483551,
+          0.8667633103206753
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.7625033929944038,
+        "seed_bootstrap_95": [
+          0.7411687299609184,
+          0.7839391827583313
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.6061197916666666,
+        "seed_bootstrap_95": [
+          0.5618489583333333,
+          0.6500651041666666
+        ]
+      }
+    },
+    "idle": {
+      "contact_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "action_rms": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      }
+    },
+    "iid_actions": {
+      "contact_fraction": {
+        "mean": 0.0048828125,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0126953125
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.5,
+        "seed_bootstrap_95": [
+          0.0,
+          1.25
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.625
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.0,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.0029296875,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0087890625
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.0576171875,
+        "seed_bootstrap_95": [
+          0.0,
+          0.1728515625
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.0017847704153550776,
+        "seed_bootstrap_95": [
+          0.0,
+          0.005296100089193299
+        ]
+      },
+      "action_rms": {
+        "mean": 0.5809079483151436,
+        "seed_bootstrap_95": [
+          0.5714203789830208,
+          0.5908340269699692
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.8173111081123352,
+        "seed_bootstrap_95": [
+          0.8000521412119269,
+          0.8356608599424362
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.0006510416666666666,
+        "seed_bootstrap_95": [
+          0.0,
+          0.0016276041666666665
+        ]
+      }
+    },
+    "legacy": {
+      "contact_fraction": {
+        "mean": 0.0654296875,
+        "seed_bootstrap_95": [
+          0.009765625,
+          0.13381347656249964
+        ]
+      },
+      "contact_onsets": {
+        "mean": 0.75,
+        "seed_bootstrap_95": [
+          0.25,
+          1.375
+        ]
+      },
+      "distinct_objects_contacted": {
+        "mean": 0.75,
+        "seed_bootstrap_95": [
+          0.25,
+          1.375
+        ]
+      },
+      "grasp_onsets": {
+        "mean": 0.25,
+        "seed_bootstrap_95": [
+          0.0,
+          0.5
+        ]
+      },
+      "moving_fraction": {
+        "mean": 0.072265625,
+        "seed_bootstrap_95": [
+          0.0166015625,
+          0.1328125
+        ]
+      },
+      "action_effect_2cm_fraction": {
+        "mean": 0.23046875,
+        "seed_bootstrap_95": [
+          0.0595703125,
+          0.44140625
+        ]
+      },
+      "mean_action_effect_m": {
+        "mean": 0.05240225081875463,
+        "seed_bootstrap_95": [
+          0.008562900912750655,
+          0.10917074851166007
+        ]
+      },
+      "action_rms": {
+        "mean": 0.6258335411548615,
+        "seed_bootstrap_95": [
+          0.5967850895598531,
+          0.6580994687974453
+        ]
+      },
+      "action_change_rms": {
+        "mean": 0.4053228311240673,
+        "seed_bootstrap_95": [
+          0.38631904115900395,
+          0.42950188275426626
+        ]
+      },
+      "action_saturation_fraction": {
+        "mean": 0.3203125,
+        "seed_bootstrap_95": [
+          0.28971354166666663,
+          0.3561197916666667
+        ]
+      }
+    }
+  },
+  "contrasts": [
+    {
+      "contrast": "hold16-minus-hold1, sigma=0.0",
+      "metric": "contact_fraction",
+      "paired_mean": 0.0107421875,
+      "descriptive_95": [
+        0.0,
+        0.0283203125
+      ]
+    },
+    {
+      "contrast": "hold16-minus-hold1, sigma=0.0",
+      "metric": "action_effect_2cm_fraction",
+      "paired_mean": 0.0390625,
+      "descriptive_95": [
+        0.0,
+        0.0927734375
+      ]
+    },
+    {
+      "contrast": "hold16-minus-hold1, sigma=0.12",
+      "metric": "contact_fraction",
+      "paired_mean": 0.0068359375,
+      "descriptive_95": [
+        0.0,
+        0.0185546875
+      ]
+    },
+    {
+      "contrast": "hold16-minus-hold1, sigma=0.12",
+      "metric": "action_effect_2cm_fraction",
+      "paired_mean": 0.0390625,
+      "descriptive_95": [
+        0.0,
+        0.0927734375
+      ]
+    },
+    {
+      "contrast": "hold16-minus-hold1, sigma=0.5",
+      "metric": "contact_fraction",
+      "paired_mean": 0.033203125,
+      "descriptive_95": [
+        0.00390625,
+        0.068359375
+      ]
+    },
+    {
+      "contrast": "hold16-minus-hold1, sigma=0.5",
+      "metric": "action_effect_2cm_fraction",
+      "paired_mean": 0.0712890625,
+      "descriptive_95": [
+        -0.029296875,
+        0.208984375
+      ]
+    }
+  ],
+  "interpretation": "Action effect compares matched initial states and fixed exogenous settings with idle; not mutual information or learned usefulness. CIs are exploratory, unadjusted."
+}

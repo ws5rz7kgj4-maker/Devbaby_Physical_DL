@@ -1,0 +1,87 @@
+{
+  "version": "exploration-diagnostic-v1",
+  "development_only": true,
+  "seeds": 8,
+  "steps": 128,
+  "cells": [
+    [
+      "h1_s0.0",
+      1,
+      0.0
+    ],
+    [
+      "h1_s0.12",
+      1,
+      0.12
+    ],
+    [
+      "h1_s0.5",
+      1,
+      0.5
+    ],
+    [
+      "h4_s0.0",
+      4,
+      0.0
+    ],
+    [
+      "h4_s0.12",
+      4,
+      0.12
+    ],
+    [
+      "h4_s0.5",
+      4,
+      0.5
+    ],
+    [
+      "h16_s0.0",
+      16,
+      0.0
+    ],
+    [
+      "h16_s0.12",
+      16,
+      0.12
+    ],
+    [
+      "h16_s0.5",
+      16,
+      0.5
+    ],
+    [
+      "legacy",
+      null,
+      null
+    ],
+    [
+      "iid_actions",
+      null,
+      null
+    ],
+    [
+      "idle",
+      null,
+      null
+    ]
+  ],
+  "domains": [
+    "iid"
+  ],
+  "motion_threshold_m_s": 0.04,
+  "displacement_threshold_m": 0.02,
+  "primary_outcomes": [
+    "contact_episode_fraction",
+    "distinct_objects_contacted",
+    "grasp_onsets",
+    "object_path_m"
+  ],
+  "limitations": [
+    "No learned-policy success curves yet",
+    "Movement is not an information-theoretic measure",
+    "Action noise is clipped; report realized action statistics",
+    "Seeds are paired; frames are not independent samples",
+    "Idle comparison includes passive settling and cannot attribute each contact causally"
+  ],
+  "full_sensory_saved": true
+}

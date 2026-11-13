@@ -1,0 +1,16 @@
+{
+  "torch": "2.6.0+cu124",
+  "numpy": "1.26.4",
+  "device": "cuda",
+  "gpu": "Tesla T4",
+  "source_identity": {
+    "repo_id": "swenlio/devbaby-results",
+    "repo_type": "dataset",
+    "revision": "4dc08caf0b0dc1448f3869bd6cbe12c2c0f30683",
+    "run_id": "formal-physical-eef2ff40",
+    "protocol_sha256": "6d7277597bf82f318cb8db9b111cdc2c5af3962135f3ea7c940dbbfdc66b5976",
+    "original_source_sha256": "eef2ff40383ff64a46d1a0bc186a3829fc6502ce09700d5e7120e53ae65d8840"
+  },
+  "model_parameters": "recorded per checkpoint",
+  "deterministic_note": "RNG restored at update/episode boundaries; bitwise cross-device equality is not asserted"
+}

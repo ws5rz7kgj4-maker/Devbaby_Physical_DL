@@ -1,0 +1,407 @@
+{
+  "formal_development": [
+    {
+      "interactions": 0,
+      "successes": 2,
+      "scored_seed_scene_trials": 576,
+      "success_rate": 0.003472222222222222,
+      "independent_training_seeds": 8,
+      "distinct_scene_task_domain_cells": 72
+    },
+    {
+      "interactions": 8192,
+      "successes": 360,
+      "scored_seed_scene_trials": 576,
+      "success_rate": 0.625,
+      "independent_training_seeds": 8,
+      "distinct_scene_task_domain_cells": 72
+    },
+    {
+      "interactions": 16384,
+      "successes": 380,
+      "scored_seed_scene_trials": 576,
+      "success_rate": 0.6597222222222222,
+      "independent_training_seeds": 8,
+      "distinct_scene_task_domain_cells": 72
+    },
+    {
+      "interactions": 24576,
+      "successes": 401,
+      "scored_seed_scene_trials": 576,
+      "success_rate": 0.6961805555555556,
+      "independent_training_seeds": 8,
+      "distinct_scene_task_domain_cells": 72
+    },
+    {
+      "interactions": 32768,
+      "successes": 427,
+      "scored_seed_scene_trials": 576,
+      "success_rate": 0.7413194444444444,
+      "independent_training_seeds": 8,
+      "distinct_scene_task_domain_cells": 72
+    }
+  ],
+  "supplement_final_adaptation": [
+    {
+      "arm": "frozen",
+      "n_model_seeds": 8,
+      "n_task_domain_cells": 9,
+      "scenes_per_cell": 32,
+      "success_rate": 0.4787326388888889
+    },
+    {
+      "arm": "full_update",
+      "n_model_seeds": 8,
+      "n_task_domain_cells": 9,
+      "scenes_per_cell": 32,
+      "success_rate": 0.3884548611111111
+    },
+    {
+      "arm": "low_lr",
+      "n_model_seeds": 8,
+      "n_task_domain_cells": 9,
+      "scenes_per_cell": 32,
+      "success_rate": 0.4053819444444444
+    },
+    {
+      "arm": "frozen_encoder",
+      "n_model_seeds": 8,
+      "n_task_domain_cells": 9,
+      "scenes_per_cell": 32,
+      "success_rate": 0.4032118055555556
+    },
+    {
+      "arm": "replay_mix",
+      "n_model_seeds": 8,
+      "n_task_domain_cells": 9,
+      "scenes_per_cell": 32,
+      "success_rate": 0.4479166666666667
+    },
+    {
+      "arm": "history",
+      "n_model_seeds": 8,
+      "n_task_domain_cells": 9,
+      "scenes_per_cell": 32,
+      "success_rate": 0.5928819444444444
+    }
+  ],
+  "supplement_delay_sweep": [
+    {
+      "model": "baby",
+      "delay_steps": 0,
+      "delay_seconds": 0.0,
+      "success_rate": 0.8489583333333334,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "history",
+      "delay_steps": 0,
+      "delay_seconds": 0.0,
+      "success_rate": 0.9088541666666666,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "baby",
+      "delay_steps": 1,
+      "delay_seconds": 0.125,
+      "success_rate": 0.80859375,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "history",
+      "delay_steps": 1,
+      "delay_seconds": 0.125,
+      "success_rate": 0.8528645833333334,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "baby",
+      "delay_steps": 2,
+      "delay_seconds": 0.25,
+      "success_rate": 0.6731770833333334,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "history",
+      "delay_steps": 2,
+      "delay_seconds": 0.25,
+      "success_rate": 0.7083333333333334,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "baby",
+      "delay_steps": 3,
+      "delay_seconds": 0.375,
+      "success_rate": 0.4153645833333333,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "history",
+      "delay_steps": 3,
+      "delay_seconds": 0.375,
+      "success_rate": 0.4583333333333333,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "baby",
+      "delay_steps": 4,
+      "delay_seconds": 0.5,
+      "success_rate": 0.2578125,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "history",
+      "delay_steps": 4,
+      "delay_seconds": 0.5,
+      "success_rate": 0.2708333333333333,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "baby",
+      "delay_steps": 6,
+      "delay_seconds": 0.75,
+      "success_rate": 0.18880208333333334,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    },
+    {
+      "model": "history",
+      "delay_steps": 6,
+      "delay_seconds": 0.75,
+      "success_rate": 0.21614583333333334,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 32
+    }
+  ],
+  "supplement_push": [
+    {
+      "model": "baby",
+      "domain": "iid",
+      "success_rate": 0.67578125,
+      "n_model_seeds": 8,
+      "scenes": 32
+    },
+    {
+      "model": "history",
+      "domain": "iid",
+      "success_rate": 0.67578125,
+      "n_model_seeds": 8,
+      "scenes": 32
+    },
+    {
+      "model": "baby",
+      "domain": "new_dynamics",
+      "success_rate": 0.05859375,
+      "n_model_seeds": 8,
+      "scenes": 32
+    },
+    {
+      "model": "history",
+      "domain": "new_dynamics",
+      "success_rate": 0.04296875,
+      "n_model_seeds": 8,
+      "scenes": 32
+    },
+    {
+      "model": "baby",
+      "domain": "new_layout",
+      "success_rate": 0.58984375,
+      "n_model_seeds": 8,
+      "scenes": 32
+    },
+    {
+      "model": "history",
+      "domain": "new_layout",
+      "success_rate": 0.6015625,
+      "n_model_seeds": 8,
+      "scenes": 32
+    },
+    {
+      "model": "baby",
+      "domain": "delay_3",
+      "success_rate": 0.00390625,
+      "n_model_seeds": 8,
+      "scenes": 32
+    },
+    {
+      "model": "history",
+      "domain": "delay_3",
+      "success_rate": 0.0,
+      "n_model_seeds": 8,
+      "scenes": 32
+    }
+  ],
+  "supplement_retention": [
+    {
+      "arm": "frozen",
+      "adaptation_domain": "new_dynamics",
+      "iid_success_rate": 0.8090277777777778,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "full_update",
+      "adaptation_domain": "new_dynamics",
+      "iid_success_rate": 0.7395833333333334,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "low_lr",
+      "adaptation_domain": "new_dynamics",
+      "iid_success_rate": 0.78125,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "frozen_encoder",
+      "adaptation_domain": "new_dynamics",
+      "iid_success_rate": 0.7604166666666666,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "replay_mix",
+      "adaptation_domain": "new_dynamics",
+      "iid_success_rate": 0.8680555555555556,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "history",
+      "adaptation_domain": "new_dynamics",
+      "iid_success_rate": 0.8888888888888888,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "frozen",
+      "adaptation_domain": "delay_3",
+      "iid_success_rate": 0.8090277777777778,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "full_update",
+      "adaptation_domain": "delay_3",
+      "iid_success_rate": 0.4166666666666667,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "low_lr",
+      "adaptation_domain": "delay_3",
+      "iid_success_rate": 0.8090277777777778,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "frozen_encoder",
+      "adaptation_domain": "delay_3",
+      "iid_success_rate": 0.4548611111111111,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "replay_mix",
+      "adaptation_domain": "delay_3",
+      "iid_success_rate": 0.7847222222222222,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "history",
+      "adaptation_domain": "delay_3",
+      "iid_success_rate": 0.7326388888888888,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "frozen",
+      "adaptation_domain": "delay_6",
+      "iid_success_rate": 0.8090277777777778,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "full_update",
+      "adaptation_domain": "delay_6",
+      "iid_success_rate": 0.2326388888888889,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "low_lr",
+      "adaptation_domain": "delay_6",
+      "iid_success_rate": 0.7430555555555556,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "frozen_encoder",
+      "adaptation_domain": "delay_6",
+      "iid_success_rate": 0.2777777777777778,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "replay_mix",
+      "adaptation_domain": "delay_6",
+      "iid_success_rate": 0.5902777777777778,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    },
+    {
+      "arm": "history",
+      "adaptation_domain": "delay_6",
+      "iid_success_rate": 0.4236111111111111,
+      "n_model_seeds": 8,
+      "n_tasks": 3,
+      "scenes_per_task": 12
+    }
+  ],
+  "supplement_record_counts": {
+    "evaluation_cells": 4918,
+    "logical_scored_trial_rows": 76736,
+    "unique_physical_rollouts_recounted": false
+  }
+}

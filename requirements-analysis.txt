@@ -1,0 +1,2 @@
+# Figure regeneration only. CSV generation and validation use the standard library.
+matplotlib==3.10.8

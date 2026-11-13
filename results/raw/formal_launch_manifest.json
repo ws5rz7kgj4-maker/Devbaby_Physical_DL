@@ -1,0 +1,29 @@
+{
+  "schema": "devbaby-worldmodel-launch-v1",
+  "run_id": "worldmodel-dacc6ff327cf",
+  "result_repo": "swenlio/devbaby-worldmodel-results",
+  "code_sha256": "dacc6ff327cf718b8b19b2e3970d4923ecd3507d2cfdf402b0cbf44e8003709a",
+  "protocol_sha256": "aab6cbe8e4957908aee1323da0a5424c486042fc885382d9291e13a8cab72946",
+  "image": "pytorch/pytorch:2.6.0-cuda12.4-cudnn9-devel",
+  "flavor": "l4x1",
+  "hard_timeout_seconds": 86400,
+  "job_budget_seconds": 82800,
+  "resume": false,
+  "resume_revision": null,
+  "resume_has_output": false,
+  "attempt": 0,
+  "submission_key": "96c1a9b7fe42e485f39dedf8204121c7",
+  "data_import": {
+    "schema": "devbaby-data-only-repair-v1",
+    "repo": "swenlio/devbaby-worldmodel-results",
+    "run_id": "worldmodel-fd0f484f6879",
+    "job_id": "6adc0292046eb82b1ecd8fed",
+    "revision": "8d341a45beb13805ef8351a2ec2c0a1a207a2b4e",
+    "index_fingerprint": "30343946e2e9b3f74abc132bf3768f881046a5ad27f29df7467c47a0e21192dd",
+    "source_identity": {
+      "code_sha256": "b00d6b49b030ad3d87a6ff3942ab7d241235cde8071bebffd2ab6e7ea65da64c",
+      "protocol_sha256": "aab6cbe8e4957908aee1323da0a5424c486042fc885382d9291e13a8cab72946"
+    },
+    "weights_policy": "restart_from_random_initialization"
+  }
+}
